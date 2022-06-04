@@ -1,21 +1,21 @@
 import { DataSource } from "typeorm";
 import { logger } from "../services/logger";
 
-const myDataSource = new DataSource({
+const dataSource = new DataSource({
   type: "postgres",
   host: process.env.TYPEORM_HOST!,
   port: parseInt(process.env.TYPEORM_PORT!),
   username: process.env.TYPEORM_USERNAME!,
   password: process.env.TYPEORM_PASSWORD!,
   database: process.env.TYPEORM_DATABASE!,
-  entities: ["src/models/*.ts"],
+  entities: ["src/entities/*.ts"],
   logging: process.env.TYPEORM_LOGGING! === 'true',
   synchronize: process.env.TYPEORM_SYNCHRONIZE! === 'true',
 })
 
 async function intializeDB(): Promise<void> {
   try {
-    await myDataSource.initialize();
+    await dataSource.initialize();
 
   } catch (error) {
     logger.error(error);
@@ -25,6 +25,6 @@ async function intializeDB(): Promise<void> {
 
 export {
   intializeDB,
-  myDataSource
+  dataSource
 };
 
