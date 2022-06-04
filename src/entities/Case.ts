@@ -1,15 +1,35 @@
-import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
-import { User } from "./User";
+import { MaxLength, validateOrReject } from "class-validator";
+import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { UserEntity } from "./User";
+
+enum Status {
+  PENDING = "pending",
+  INPROGRESS = "inprogress",
+  CLOSED = "closed"
+}
+
 @Entity()
-export class Case extends BaseEntity {
+export class CaseEntity extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
   @Column()
+  @MaxLength(500)
   reason: string;
   @Column()
+  @MaxLength(500)
   comment: string;
-  @Column()
-  status: string;
-  @ManyToOne(() => User, (user) => user.cases)
-  user: User;
+  @Column({
+    type: "enum",
+    enum: Status,
+    default: Status.PENDING
+  })
+  status: Status;
+  @ManyToOne(() => UserEntity, (user) => user.cases)
+  user: UserEntity;
+
+  @BeforeInsert()
+  @BeforeUpdate()
+  async validate() {
+    await validateOrReject(this);
+  }
 }

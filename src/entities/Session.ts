@@ -1,19 +1,35 @@
-import { IsISO8601 } from "class-validator";
-import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
-import { User } from "./User";
+import { IsISO8601, Length, validateOrReject } from "class-validator";
+import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { UserEntity } from "./User";
+
+enum Status {
+  FAILED,
+  VERIFIED
+}
+
 @Entity()
-export class Session extends BaseEntity {
+export class SessionEntity extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
   @Column()
+  @Length(1, 50)
   username: string;
   @Column()
-  @IsISO8601()
   pdoaId: string;
   @Column()
+  @IsISO8601()
   accessTimestamp: string;
-  @Column()
-  status: string;
-  @ManyToOne(() => User, (user) => user.sessions)
-  user: User;
+  @Column({
+    type: "enum",
+    enum: Status
+  })
+  status: Status;
+  @ManyToOne(() => UserEntity, (user) => user.sessions)
+  user: UserEntity;
+
+  @BeforeInsert()
+  @BeforeUpdate()
+  async validate() {
+    await validateOrReject(this);
+  }
 }

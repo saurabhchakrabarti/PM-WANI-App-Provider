@@ -1,7 +1,7 @@
-import { IsEmail, IsPhoneNumber, Length, Max } from "class-validator";
-import { BaseEntity, Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
-import { Case } from "./Case";
-import { Session } from "./Session";
+import { IsEmail, IsPhoneNumber, Length, MaxLength, validateOrReject } from "class-validator";
+import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { CaseEntity } from "./Case";
+import { SessionEntity } from "./Session";
 
 enum UserStatus {
   BLOCKED = "blocked",
@@ -15,14 +15,14 @@ enum PreferredPayment {
   UPI = "upi"
 }
 @Entity()
-export class User extends BaseEntity {
+export class UserEntity extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
   @Column()
-  @Max(50)
+  @MaxLength(50)
   firstName: string;
   @Column()
-  @Max(50)
+  @MaxLength(50)
   lastName: string;
   @Column()
   @Length(1, 50)
@@ -39,16 +39,25 @@ export class User extends BaseEntity {
   phone: string;
   @Column({
     type: "enum",
-    enum: PreferredPayment
+    enum: PreferredPayment,
+    default: PreferredPayment.UPI
   })
-  preferredPayment: string;
+  preferredPayment: PreferredPayment;
   @Column({
     type: "enum",
-    enum: UserStatus
+    enum: UserStatus,
+    default: UserStatus.ACTIVE
   })
-  userStatus: number;
-  @OneToMany(() => Session, (session) => session.user)
-  sessions: Session[];
-  @OneToMany(() => Case, (c) => c.user)
-  cases: Case[];
+  userStatus: UserStatus;
+  @OneToMany(() => SessionEntity, (session) => session.user)
+  sessions: SessionEntity[];
+  @OneToMany(() => CaseEntity, (c) => c.user)
+  cases: CaseEntity[];
+
+  @BeforeInsert()
+  @BeforeUpdate()
+  async validate() {
+    await validateOrReject(this);
+  }
+
 }
