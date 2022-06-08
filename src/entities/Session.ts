@@ -2,7 +2,7 @@ import { IsISO8601, Length, validateOrReject } from "class-validator";
 import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { UserEntity } from "./User";
 
-enum Status {
+export enum Status {
   FAILED,
   VERIFIED
 }
@@ -16,9 +16,9 @@ export class SessionEntity extends BaseEntity {
   username: string;
   @Column()
   pdoaId: string;
-  @Column()
+  @Column({ type: 'timestamptz' })
   @IsISO8601()
-  accessTimestamp: string;
+  accessTimestamp: Date;
   @Column({
     type: "enum",
     enum: Status
