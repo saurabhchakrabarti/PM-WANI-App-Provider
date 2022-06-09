@@ -29,7 +29,7 @@ export class UserEntity extends BaseEntity {
   username: string;
   @Column()
   @IsEmail()
-  @Length(7, 254)
+  @Length(7, 320)
   email: string;
   @Column({ select: false })
   password: string;
@@ -37,12 +37,8 @@ export class UserEntity extends BaseEntity {
   @Length(6, 15)
   @IsPhoneNumber('IN')
   phone: string;
-  @Column({
-    type: "enum",
-    enum: PreferredPayment,
-    default: PreferredPayment.UPI
-  })
-  preferredPayment: PreferredPayment;
+  @Column()
+  preferredPayment: string;
   @Column({
     type: "enum",
     enum: UserStatus,
