@@ -2,61 +2,55 @@ import { InsertResult, UpdateResult } from "typeorm";
 import { dataSource } from "../db/data-source";
 import { UserEntity } from "../entities/User";
 
+
 export class User {
 
-  private userRepository;
+  private static userRepository = dataSource.getRepository(UserEntity);
 
-  constructor() {
-    this.userRepository = dataSource.getRepository(UserEntity)
-  }
-
-  async getUserByUsername(username: string): Promise<UserEntity | null> {
-    const user = await this.userRepository.findOneBy({
+  static async getUserByUsername(username: string): Promise<UserEntity | null> {
+    const user = await User.userRepository.findOneBy({
       username
     })
     return user;
   }
 
-  async getUserByCredential(username: string, password: string): Promise<UserEntity | null> {
-    return await this.userRepository.findOneBy({
+  static async getUserByCredential(username: string, password: string): Promise<UserEntity | null> {
+    return await User.userRepository.findOneBy({
       username,
       password
     })
 
   }
 
-  async createUser({ firstName, lastName, username, email, password, phone }:
-    { firstName: string, lastName: string, username: string, email: string, password: string, phone: string }):
+  static async createUser({ firstName, lastName, username, email, password, phone, preferredPayment }:
+    { firstName: string, lastName: string, username: string, email?: string, password: string, phone: string, preferredPayment?: string }):
     Promise<InsertResult> {
-    return await this.userRepository.insert({
+    return await User.userRepository.insert({
       username,
       password,
       firstName,
       lastName,
       email,
       phone,
+      preferredPayment
     })
   }
 
-  async createBulkUsers(usersArray: { firstName: string, lastName: string, username: string, email: string, password: string, phone: string }[]):
+  static async createBulkUsers(usersArray: { firstName: string, lastName: string, username: string, email: string, password: string, phone: string, preferredPayment: string }[]):
     Promise<UserEntity[]> {
-    const userEntities = this.userRepository.create(usersArray);
-    await this.userRepository.insert(userEntities);
+    const userEntities = User.userRepository.create(usersArray);
+    await User.userRepository.insert(userEntities);
     return userEntities;
 
   }
 
-  async updateUser({ id, firstName, lastName, username, email, phone }:
-    { id: number, firstName?: string, lastName?: string, username?: string, email?: string, phone?: string }):
+  static async updateUser({ id, ...updates }:
+    { id: number, firstName?: string, lastName?: string, username?: string, email?: string, phone?: string, preferredPayment?: string }):
     Promise<UpdateResult> {
-    return await this.userRepository.update({
+    return await User.userRepository.update({
       id
     }, {
-      username,
-      firstName,
-      lastName,
-      email,
-      phone
+      ...updates
     })
   }
 }
