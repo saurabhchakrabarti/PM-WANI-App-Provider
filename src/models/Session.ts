@@ -10,15 +10,11 @@ enum Rdate {
 
 export class Session {
 
-  private sessionRepository;
+  private static sessionRepository = dataSource.getRepository(SessionEntity);
 
-  constructor() {
-    this.sessionRepository = dataSource.getRepository(SessionEntity)
-  }
-
-  async getSessionByUsername({ username, rdate, start_date, end_date, pdoaId }: { username: string, rdate?: Rdate, start_date?: Date, end_date?: Date, pdoaId?: string }): Promise<SessionEntity[] | null> {
+  static async getSessionByUsername({ username, rdate, start_date, end_date, pdoaId }: { username: string, rdate?: Rdate, start_date?: Date, end_date?: Date, pdoaId?: string }): Promise<SessionEntity[] | null> {
     let session: SessionEntity[] | null;
-    const query = this.sessionRepository.createQueryBuilder('session');
+    const query = Session.sessionRepository.createQueryBuilder('session');
     query.where("session.username = :username", { username });
 
     if (pdoaId) {
@@ -45,10 +41,10 @@ export class Session {
     return session;
   }
 
-  async createSession({ user, pdoaId, username, accessTimestamp, status }:
+  static async createSession({ user, pdoaId, username, accessTimestamp, status }:
     { user: UserEntity, pdoaId: string, username: string, accessTimestamp: Date, status: Status }):
     Promise<InsertResult> {
-    return await this.sessionRepository.insert({
+    return await Session.sessionRepository.insert({
       username,
       pdoaId,
       accessTimestamp,
