@@ -1,0 +1,487 @@
+{
+    "WaniAPList": {
+        "lastUpdated": [
+            "20180704123030"
+        ],
+        "providerId": [
+            "581df294-9def-11e7-abc4-cec278b6b50a"
+        ],
+        "ttl": [
+            "24"
+        ],
+        "Location": [
+            {
+                "name": [
+                    "CHENNAI"
+                ],
+                "state": [
+                    "TAMIL NADU"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "13.042677, 80.201500"
+                        ],
+                        "macid": [
+                            "C8:3A:35:32:E7:D8"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "Cotyledon"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "10-18"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "10"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": [
+                    "CHENNAI"
+                ],
+                "state": [
+                    "TAMIL NADU"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "13.042677, 80.201500"
+                        ],
+                        "macid": [
+                            "C8:3A:35:F9:9B:A0"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "CotyFi"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "09-21"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "15"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": [
+                    "CHENNAI"
+                ],
+                "state": [
+                    "TAMIL NADU"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "13.042677, 80.201500"
+                        ],
+                        "macid": [
+                            "C4:E9:84:FE:DE:52"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "CotyFi2"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "09-21"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "15"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": [
+                    "Bangalore"
+                ],
+                "state": [
+                    "Karnataka"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "12.980889, 77.596682"
+                        ],
+                        "macid": [
+                            "18:A6:F7:AF:08:D8"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "CotyFiDemo"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "09-22"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "5"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": [
+                    "Delhi"
+                ],
+                "state": [
+                    "New Delhi"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "28.591268, 77.320101"
+                        ],
+                        "macid": [
+                            "70:4F:57:D7:13:CE"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "CotyFiDemo"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "09-22"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "5"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": [
+                    "Andaman and Nicobar"
+                ],
+                "state": [
+                    "Andaman and Nicobar"
+                ],
+                "type": [
+                    "DISTRICT"
+                ],
+                "AP": [
+                    {
+                        "cpUrl": [
+                            "http://cotyledon.in/wifi.php"
+                        ],
+                        "geoLoc": [
+                            "12.505722, 92.911528"
+                        ],
+                        "macid": [
+                            "D4:6E:0E:32:81:BC"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "ssid": [
+                            "CotyFiDemo"
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Tag": [
+                            {
+                                "name": [
+                                    "OPENBETWEEN"
+                                ],
+                                "value": [
+                                    "09-22"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "AVGSPEED"
+                                ],
+                                "value": [
+                                    "5"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "FREEBAND"
+                                ],
+                                "value": [
+                                    "0"
+                                ]
+                            },
+                            {
+                                "name": [
+                                    "PAYMENTMODES"
+                                ],
+                                "value": [
+                                    "COUPON, CREDITCARD, DEBITCARD, NETBANKING, WALLET"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Signature": [
+            {
+                "xmlns": [
+                    "http://www.w3.org/2000/09/xmldsig#"
+                ],
+                "SignedInfo": [
+                    {
+                        "CanonicalizationMethod": [
+                            {
+                                "Algorithm": [
+                                    "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                ]
+                            }
+                        ],
+                        "SignatureMethod": [
+                            {
+                                "Algorithm": [
+                                    "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                                ]
+                            }
+                        ],
+                        "Reference": [
+                            {
+                                "URI": [
+                                    ""
+                                ],
+                                "Transforms": [
+                                    {
+                                        "Transform": [
+                                            {
+                                                "Algorithm": [
+                                                    "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DigestMethod": [
+                                    {
+                                        "Algorithm": [
+                                            "http://www.w3.org/2001/04/xmlenc#sha256"
+                                        ]
+                                    }
+                                ],
+                                "DigestValue": [
+                                    "52TyHhJ6N2cZnKXAH29kOwxih3N5Q7oAHAeguIz454o="
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "SignatureValue": [
+                    "eraW/Tel/TQ1yh6BIlqSQstXBwaWJAJDDKLZnCCYYeJ+C9dHoTxQDJks3sYC5Tmc5WF8t313UqGy\r\ndTEJg3nyTkOkR4bJomeI34/IpQeXjVvK7C62wOOvxFJxn3SXryf10sSGKlntoq87iCGmsMy5RTsY\r\nx7RmZ8i82fOx86pWEJueKh6KUVIWlaEg0W6mt8rhG/hHvZsI47mbjGnUE5humGNrNcGWnclwibqH\r\nTwQZWx1z8dtNxkxzbCbjyvwEARmrwkzNf05gkeRHfYnLIgGo6FY7HgK1YkNrITS/u2ZoOmgstVt1\r\n19P6J3GClr02+yyGDXcIUe5YcIIillMH4yudqw=="
+                ],
+                "KeyInfo": [
+                    {
+                        "X509Data": [
+                            {
+                                "X509SubjectName": [
+                                    "CN=Kapil Handa,OU=Unknown,O=TRAI,L=New Delhi,ST=New Delhi,C=IN"
+                                ],
+                                "X509Certificate": [
+                                    "MIIDdzCCAl+gAwIBAgIEU/DQmjANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJJTjESMBAGA1UE\r\nCBMJTmV3IERlbGhpMRIwEAYDVQQHEwlOZXcgRGVsaGkxDTALBgNVBAoTBFRSQUkxEDAOBgNVBAsT\r\nB1Vua25vd24xFDASBgNVBAMTC0thcGlsIEhhbmRhMB4XDTE3MTAwNzEwMTExN1oXDTE4MDEwNTEw\r\nMTExN1owbDELMAkGA1UEBhMCSU4xEjAQBgNVBAgTCU5ldyBEZWxoaTESMBAGA1UEBxMJTmV3IERl\r\nbGhpMQ0wCwYDVQQKEwRUUkFJMRAwDgYDVQQLEwdVbmtub3duMRQwEgYDVQQDEwtLYXBpbCBIYW5k\r\nYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJWgGPg+2gVUccnwbD8jY8UorjjR61U6\r\nqveJzJphwupzJcR9nXvVM+BjXjx7p2m1Uq46GwQpyJrHVK/r1dMjT8/bmFEBzhnoXvhxfJlVuCl6\r\n1x2capMwuxjPkI8ck6mnGCHGBdw0O2CIDTSaYnHa+t9vIicUVqcdwbTN7Z4Bn1B2+Vfiz2kTuLs0\r\ntnqm7CtQRHLh3z31FLOsfL9Of6S7bWimqJXHCK6G4bxM1VNNTpc212/2I4Qi/DscS7PBJumKsULe\r\nXmuCe24cOY9/30i4+XvDpCS/CsbScnDywDXyx74fzw8OPZ3JDFdi5eVQ3SGuu8HADBYetJynBjiQ\r\nXhshzS0CAwEAAaMhMB8wHQYDVR0OBBYEFA2zZZ/S3evmc3fIs4Xhp1YvhofOMA0GCSqGSIb3DQEB\r\nCwUAA4IBAQBzn5t4jMrsUpBvpqsyBhVp3N7FoGvKqas8dkn04Eqz06Rmrd95N8b8Xs+tpEIh+1Om\r\nqrsa95a05FwYAQESbsefleq9GVF4Pw6NopDJp539z+BCeFLoJNLCWNPvmN6kAPeXiTHesryeU4mG\r\neyK49yhGZPpvaQgarwzHLKtjBp3TBJw0QvUx54C6sopJq7RM2bYeSFzUIo3sSNSbaq7vcQ8mzJZj\r\nCC3Tp7Y1bTOibdhwvl4+lu+eL63GPcJUv3eVe13bw4fMO5D/CSRDg62NkoXUsa8BxL+J5XoHJ0M6\r\nKJlrHdNIKl8T1d076GhIrQR0yQz0NcZFwsuTPc6VplnBM3OR"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

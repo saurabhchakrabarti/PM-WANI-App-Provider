@@ -1,0 +1,932 @@
+{
+    "WaniRegistry": {
+        "lastUpdated": [
+            "20180801120330"
+        ],
+        "ttl": [
+            "24"
+        ],
+        "PDOAs": [
+            {
+                "PDOA": [
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581df294-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "aravind@cotyledon.in"
+                        ],
+                        "id": [
+                            "581df294-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Cotyledon Technologies"
+                        ],
+                        "phone": [
+                            "+919840889462"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIEvTCCA6WgAwIBAgIJAMOSOat52waNMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYD\r\n                    VQQGEwJJTjETMBEGA1UECBMKVGFtaWwgTmFkdTEQMA4GA1UEBxMHQ2hlbm5haTEf\r\n                    MB0GA1UEChMWQ290eWxlZG9uIFRlY2hub2xvZ2llczEMMAoGA1UECxMDRGV2MRAw\r\n                    DgYDVQQDEwdBcmF2aW5kMSMwIQYJKoZIhvcNAQkBFhRhcmF2aW5kQGNvdHlsZWRv\r\n                    bi5pbjAeFw0xNzA5MjUxMTM3MjVaFw0yMjA5MjQxMTM3MjVaMIGaMQswCQYDVQQG\r\n                    EwJJTjETMBEGA1UECBMKVGFtaWwgTmFkdTEQMA4GA1UEBxMHQ2hlbm5haTEfMB0G\r\n                    A1UEChMWQ290eWxlZG9uIFRlY2hub2xvZ2llczEMMAoGA1UECxMDRGV2MRAwDgYD\r\n                    VQQDEwdBcmF2aW5kMSMwIQYJKoZIhvcNAQkBFhRhcmF2aW5kQGNvdHlsZWRvbi5p\r\n                    bjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALXbGM6FgziY4UVIVTJy\r\n                    IuhAdrS4M2l2QWCNP9+GOUnpM+2zhNtqIOk2ba34VpAjzQfX3mtE3h8kqP0iAaRr\r\n                    Wf4XvjtpgTv6tn/hB3shNhkCOenlaEMDRRreNdJW0A/vPF47WKOPZXvPBllFjawu\r\n                    A2ZwVGQfLkkABt57tt4EZKXprGcz+JwxFBzHbKAju43DLJGdn63ZcQhkSoDZFN6D\r\n                    I2xP7/8It/MpmcnCdIE1CG2Q+dW9rqoS6J3f48w8W3wiROI11hNAxh16aydQ0/HV\r\n                    H6Spje+HHBw6RwQZFtMj6ar8s7/zSOXMCWtR1DvxIyRz30VI0xzCVp7h1IYO5N48\r\n                    ECUCAwEAAaOCAQIwgf8wHQYDVR0OBBYEFLcM7EflXgpFoT2rPiCpQDIfBnNvMIHP\r\n                    BgNVHSMEgccwgcSAFLcM7EflXgpFoT2rPiCpQDIfBnNvoYGgpIGdMIGaMQswCQYD\r\n                    VQQGEwJJTjETMBEGA1UECBMKVGFtaWwgTmFkdTEQMA4GA1UEBxMHQ2hlbm5haTEf\r\n                    MB0GA1UEChMWQ290eWxlZG9uIFRlY2hub2xvZ2llczEMMAoGA1UECxMDRGV2MRAw\r\n                    DgYDVQQDEwdBcmF2aW5kMSMwIQYJKoZIhvcNAQkBFhRhcmF2aW5kQGNvdHlsZWRv\r\n                    bi5pboIJAMOSOat52waNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB\r\n                    AEatAcZZUJbmZhBQbb6kcVMfx9O0Xdsl8uPleMQbrOhwOCaaypNyyfE0QgCfyUND\r\n                    J75G+Wu11/68yTGV1tN7GdLXK3jxpRboTNQ2u9UeuTyLZb124H82QNjI31ux3jpC\r\n                    ICuTPCHAW844Sl/9UYgRRYnvEBsm/vUdbIOXouPbSXXqZOkOJTEjkpx84Wj/M46D\r\n                    dzIZjW7WfobeJ2mjnHGxtE05JAYzRTQ2ywYNjnNifYbWHBWfbFbedSks7YIUgz5r\r\n                    VpUsmsUufwitXCMeApVJU+0vk4DObIRama5g5GmgASSISiLbhC/eRZURAPfVUO1u\r\n                    GS3uJeBq++VW0QrlpmvXv4g=\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20220924"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/9a7d24dd-838c-424b-be2b-35c3e211f81e/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "admin@airjaldi.net"
+                        ],
+                        "id": [
+                            "9a7d24dd-838c-424b-be2b-35c3e211f81e"
+                        ],
+                        "name": [
+                            "Rural Broadband Pvt. Ltd."
+                        ],
+                        "phone": [
+                            "9857570802"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIEGzCCAwOgAwIBAgIJAJI9zK7enLYXMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYD\r\nVQQGEwJJTjEOMAwGA1UECAwFRGVsaGkxEjAQBgNVBAcMCU5ldyBEZWxoaTEiMCAG\r\nA1UECgwZUnVyYWwgQnJvYWRiYW5kIFB2dC4gTHRkLjERMA8GA1UECwwIQWlySmFs\r\nZGkxFTATBgNVBAMMDGFpcmphbGRpLmNvbTEiMCAGCSqGSIb3DQEJARYTZGluZXNo\r\nQGFpcmphbGRpLm5ldDAeFw0xODA3MTMwNzQ5MzlaFw0xOTA3MTMwNzQ5MzlaMIGj\r\nMQswCQYDVQQGEwJJTjEOMAwGA1UECAwFRGVsaGkxEjAQBgNVBAcMCU5ldyBEZWxo\r\naTEiMCAGA1UECgwZUnVyYWwgQnJvYWRiYW5kIFB2dC4gTHRkLjERMA8GA1UECwwI\r\nQWlySmFsZGkxFTATBgNVBAMMDGFpcmphbGRpLmNvbTEiMCAGCSqGSIb3DQEJARYT\r\nZGluZXNoQGFpcmphbGRpLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\r\nggEBAM1Fvd/HauSSTP6hhv9hESOfjrjeRd+lofnmhYyIpmX8T3nqdREtGwBtuvzw\r\npza3hBk77/aW4pCBDdYBGExk3Nzv2BP2DKVfZVAM1VSiXXoUlTpSV/9kbXYX24Qk\r\nnwX/ILXDn9X1VZBbK8YHZjhqKavGdJ8LVfrLW21xhgK3UD3ExabofL55v/XuyJGn\r\nhz5sVrKIbMr5Lg1pjyYqgquzDzZUle+Z+zy1Pqn6CwqJSHxcvU30YJM1zVio1NSZ\r\nHfJ1FYPJ3dbw5JfzY1jyc0EJPdOMHRbUQVEKjca40S15pX+7iBeLW6VNvHtYLwQe\r\nBGPNip7zuryQIMhZ5gIucu0iKfECAwEAAaNQME4wHQYDVR0OBBYEFAwLEmcITsqk\r\n/eqrfut7pEHUYx/cMB8GA1UdIwQYMBaAFAwLEmcITsqk/eqrfut7pEHUYx/cMAwG\r\nA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFO7imynRwizuk5nWIXSDGVN\r\nZksmhy3mqANV8vxV0A3UYHm7xXXeS3wncwnq4ZBx/8xjejmXBsiQSxpVWtMWDfDB\r\nn2b6mno/EaB49ISbesri9d0wJK2D5fGv4Ub9LVeGlBKVNZ9wayA7iYrX6aTVHSCb\r\n9QkADxK4peuqaEzrRXRlCH7bAjTnoBg7ZHdveN6jqVGOPWPkot5FGHZRiVuyV/2T\r\na+bh4qr0ROIBQT/SHhgCPGhgpDv/tlgKLlTn3kyI60l2Hpi1RiLEassHe1AhQC6j\r\nBG2jvyghFu6vtuyBt1DIVJkIKf3Srah98W1RN7zzj98CGsspQn2JWd7u2lfuB1U=\r\n-----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20190713"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/dd2b3371-f32e-434f-b0d7-fed0d4a12fda/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "venkat.thummala@onehopnetworks.com"
+                        ],
+                        "id": [
+                            "dd2b3371-f32e-434f-b0d7-fed0d4a12fda"
+                        ],
+                        "name": [
+                            "ONEHOP NETWORKS"
+                        ],
+                        "phone": [
+                            "9739657883"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIEKTCCAxGgAwIBAgIJANDXapLDCwi4MA0GCSqGSIb3DQEBBQUAMIGqMQswCQYD\r\nVQQGEwJJTjESMBAGA1UECAwJS0FSTkFUQUtBMRIwEAYDVQQHDAlCRU5HQUxVUlUx\r\nIDAeBgNVBAoMF09ORUhPUCBORVRXT1JLUyBQVlQgTFREMR4wHAYDVQQDDBVjcC5v\r\nbmVob3BuZXR3b3Jrcy5jb20xMTAvBgkqhkiG9w0BCQEWInZlbmthdC50aHVtbWFs\r\nYUBvbmVob3BuZXR3b3Jrcy5jb20wHhcNMTgwMTAzMDYzMTI1WhcNMTkwMTAzMDYz\r\nMTI1WjCBqjELMAkGA1UEBhMCSU4xEjAQBgNVBAgMCUtBUk5BVEFLQTESMBAGA1UE\r\nBwwJQkVOR0FMVVJVMSAwHgYDVQQKDBdPTkVIT1AgTkVUV09SS1MgUFZUIExURDEe\r\nMBwGA1UEAwwVY3Aub25laG9wbmV0d29ya3MuY29tMTEwLwYJKoZIhvcNAQkBFiJ2\r\nZW5rYXQudGh1bW1hbGFAb25laG9wbmV0d29ya3MuY29tMIIBIjANBgkqhkiG9w0B\r\nAQEFAAOCAQ8AMIIBCgKCAQEAsRVYxfh32Uk78Pa2XlV3PKw9mabrUJJkdKjXh+Iq\r\nfJBOAeoHE5RQWAyYfz4Mw7YofGLeaX09+WZWWAdbs1uhsW6lZxE8OJRxke2k3q0z\r\nTVQrgGxz5NTiL+3thxPlYNqod2nwN8+3RGhXoSkOxxBfs1aMsGTE6OMkLa1/CHqS\r\nezpEXdIbB6VUnzdFeCavcY4hvcPNeIkF6xEprkf++bSDN+p6iPPb24G7SXvTCP7N\r\n94J6gHruVlTnESY5ZOxt3GvHe1XMfsCdBNqIBiBywLFhm0uOxwWa8HlvlHmneaPt\r\nQ/6aoztA5pMBzq+MfvT+XM32BPQWl1Vcu+L+EwIkw2jZOQIDAQABo1AwTjAdBgNV\r\nHQ4EFgQUju4/xYnmeNsQrPbV8o6C/beJrL8wHwYDVR0jBBgwFoAUju4/xYnmeNsQ\r\nrPbV8o6C/beJrL8wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAiLTm\r\nmWs5aDDReILOtEdBN4fSuZH0RHhiJ3qvYg01KYCdlOWaz+Z2SU/p/UVNZ6F+zool\r\nczeJDc1NwYsvvBGlMuCfZzpHYeV0ZLVkFyo0boeQu3v468s6XWH6/OXjSf+OJJYC\r\nHXV0jIqSMECkxjPPqsaI0+XAwQ3kSC/ndGGfY/V/XtG8twnvpwnn4OP9Zgqr93PE\r\n2hAPodf5bUntvHNjdijsZGE72TeJ+zPGwIJwXPwSIVVQqAWzWgpq8GrtyIjjCDun\r\n6qfU0PGPePpW4IMkfAcz9S3DPLONkoFBkFW0Y1jysCipyADL1QJPlRvGnGATPftw\r\nuWkJhNPvMUyjRSLX7w==\r\n-----END CERTIFICATE-----\r\n\r\n                ",
+                                        "exp": [
+                                            "20190103"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e249e-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "vikram@yspot.in"
+                        ],
+                        "id": [
+                            "581e249e-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Febler technologies"
+                        ],
+                        "phone": [
+                            "+919886132601"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIEETCCAvmgAwIBAgIJAOt/aniBa3anMA0GCSqGSIb3DQEBCwUAMIGeMQswCQYD\r\nVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYDVQQHDAlCZW5nYWx1cnUx\r\nJDAiBgNVBAoMG0ZlYmxlciBUZWNobm9sb2dpZXMgUHZ0IEx0ZDEOMAwGA1UECwwF\r\nWXNwb3QxETAPBgNVBAMMCHlzcG90LmluMR4wHAYJKoZIhvcNAQkBFg92aWtyYW1A\r\neXNwb3QuaW4wHhcNMTcxMTE2MDk0NjA1WhcNMTgxMTE2MDk0NjA1WjCBnjELMAkG\r\nA1UEBhMCSU4xEjAQBgNVBAgMCUthcm5hdGFrYTESMBAGA1UEBwwJQmVuZ2FsdXJ1\r\nMSQwIgYDVQQKDBtGZWJsZXIgVGVjaG5vbG9naWVzIFB2dCBMdGQxDjAMBgNVBAsM\r\nBVlzcG90MREwDwYDVQQDDAh5c3BvdC5pbjEeMBwGCSqGSIb3DQEJARYPdmlrcmFt\r\nQHlzcG90LmluMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmTyG0CkO\r\nCFyqzNy59wVHizH16PpiIqpXjDrRGT401TkMzMq3vl90JSboW2SNPWuhwaZy05rr\r\nEnXXCMwe9fsyXS2s4KdWhoj+wotJph7pMiY8SLh1Bpcj2DS6PgjLk+T7HBZt2YDl\r\nfPYZ6rFzmzb+7De09Qk3bn/LqQeuAWUWoe3Pz1jrqDrEYBP6FlQbL6i7XID3DoDn\r\nayuLjBEgItUCcOvqqXzW1AWKYMFqSZKn89KdB/+ccPP0JpDzASlAjXZWYcENSziu\r\nQ365aAcmSvmzIM2XkIe92fnxhrj+UjchklmxnpxLU1xLzGz6ktBFZyssVH8ZIQID\r\n+GEUXUehT/+31QIDAQABo1AwTjAdBgNVHQ4EFgQUguIVcR7VTbiOCukAfnPyqYDZ\r\ng2QwHwYDVR0jBBgwFoAUguIVcR7VTbiOCukAfnPyqYDZg2QwDAYDVR0TBAUwAwEB\r\n/zANBgkqhkiG9w0BAQsFAAOCAQEAYk/Y7+996ongM0iEbVBVqrA5nwTYwaj3f5eC\r\nkpQ6hG38Lsl4kEWSAQaxvqM5kwoUfG0lQ6kj5gu2HbZrySZvG+LgrWBbBMoOaNwN\r\nb8mSeEZEfUkLI8VVl2UBimGJT0ScL744pyvNNR0Bq3z+Ue6c8me1EHkgVIicitvq\r\nSk5ZVS5r7XgFZOgiCipctD6LPfxuAqwsVWwBok26omb1mWidRfO1zvJIjQa1AWZz\r\nyp3oUweTOZ70zBIMqgzrxJ2TKB4IKVnDTiGxXC4+ZUq0rJuFHdDTpMMCYoBpOdm/\r\nQbYKIDBqfbIloP0uD9mG9zJndPI+faAgl51X0AgPTlFi3CGnWg==\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20181116"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/1ceebefc-055b-4f44-b1c7-fceabeab040d/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "vinay@techzoneacademy.com"
+                        ],
+                        "id": [
+                            "1ceebefc-055b-4f44-b1c7-fceabeab040d"
+                        ],
+                        "name": [
+                            "Techzone Academy"
+                        ],
+                        "phone": [
+                            "+919012022211"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIENDCCAxygAwIBAgIJALCAEL1nL0jsMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYD\r\n                    VQQGEwJJTjEUMBIGA1UECAwLVXR0YXJha2hhbmQxDzANBgNVBAcMBkFsbW9yYTEZ\r\n                    MBcGA1UECgwQVGVjaHpvbmUgQWNhZGVteTENMAsGA1UECwwES29zaTEkMCIGA1UE\r\n                    AwwbY293bWVzaC50ZWNoem9uZWFjYWRlbXkuY29tMSgwJgYJKoZIhvcNAQkBFhl2\r\n                    aW5heUB0ZWNoem9uZWFjYWRlbXkuY29tMB4XDTE3MDkyODA5MDY0NloXDTE4MDky\r\n                    ODA5MDY0Nlowga4xCzAJBgNVBAYTAklOMRQwEgYDVQQIDAtVdHRhcmFraGFuZDEP\r\n                    MA0GA1UEBwwGQWxtb3JhMRkwFwYDVQQKDBBUZWNoem9uZSBBY2FkZW15MQ0wCwYD\r\n                    VQQLDARLb3NpMSQwIgYDVQQDDBtjb3dtZXNoLnRlY2h6b25lYWNhZGVteS5jb20x\r\n                    KDAmBgkqhkiG9w0BCQEWGXZpbmF5QHRlY2h6b25lYWNhZGVteS5jb20wggEiMA0G\r\n                    CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqQU3EHitwn6pgTqt5cZ7r32hUNfy4\r\n                    RAib7tq+6DPj4qLupOzFQpKJKG8UpT8VgBwg8ilWi6gXs10yEnGtLLk1lm1deZG7\r\n                    kM7bz7lLSvVcDpTA/x6ufUAso9DLxBN8EREr/MNmp/ah6KhZ94tjLRV1YMf+gfmN\r\n                    FJ3fgN6BNxGUk38Yls6kJMNe/eXPsVIVPGDZMsJilIaROZ9NImm48UuVHd2zNXwj\r\n                    aBiHa2JueGLEkPGVsOie3rzTNXv5EaNuHrLlRfZxkpLvvJ2AetB8EoIlva7/G6u3\r\n                    5DGwfp0a/ryevgIAbCMjHiNgkACb8Mz0ynGFth+9FIqD7KAWt8HgGyydAgMBAAGj\r\n                    UzBRMB0GA1UdDgQWBBQSzAeNYdZoVb5Bnxjqru80nDEGIDAfBgNVHSMEGDAWgBQS\r\n                    zAeNYdZoVb5Bnxjqru80nDEGIDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB\r\n                    CwUAA4IBAQAmHR3FvR3eGUdhCaZlfnbhhZuEUoPMCyyErOzlEaHhtnBwp8LYsPD7\r\n                    Wq0tfqbkBqSQX6DE4X5DVj1b7JUGnTAnUsFS0FyJXwAStvhvQGpXjs9mL88EPWaQ\r\n                    YcHb9oeWCk84yzaxRSDPuLEFkFoaA+TmVayfbMi/CZnoePlpIl7Z6AHLdki2QtPs\r\n                    sN/N11uW9J+ioaA1acD7ou63oDAuORQQ2F7+WSlT1awxUiedDDPHyym9dMwZansL\r\n                    GK0sGTW0+HwNkzxTVxM3bYZONVlGsnScVFeUkK+RmI8KMbmSi3gjN9LpKqyuZO+7\r\n                    MUeNK4uto/3RaL/EGXsk3/EnnBlYv8Fx\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180928"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e27be-9def-11e7-lbc4-cec778b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "gb@i2e1.com"
+                        ],
+                        "id": [
+                            "581e27be-9def-11e7-lbc4-cec778b6b50a"
+                        ],
+                        "name": [
+                            "Omnia Information Private Limited"
+                        ],
+                        "phone": [
+                            "+919818482844"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIFIDCCBAigAwIBAgIIE+yCXGfGPr0wDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNV\r\n                    BAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRow\r\n                    GAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjEtMCsGA1UECxMkaHR0cDovL2NlcnRz\r\n                    LmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMTMwMQYDVQQDEypHbyBEYWRkeSBTZWN1\r\n                    cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwHhcNMTcwNzI4MDgzMTAwWhcN\r\n                    MTgwNzI4MDgzMTAwWjA1MSEwHwYDVQQLExhEb21haW4gQ29udHJvbCBWYWxpZGF0\r\n                    ZWQxEDAOBgNVBAMTB2kyZTEuaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\r\n                    AoIBAQDJUnypLyraXsAtf+mkP1ijEXCwFrpZzfMr2W1vmAi++1n0X/9Kcp2RYcGv\r\n                    txgGtP0Mmdlv2kcdydGaJSrIyBO3xHbZe2bBah6kex8s6QdYBCBn0v9CMaEXf3mj\r\n                    Z7m1ic7JSbqtD5G2WpVnH+7Wta1P86qEWTi03wZ55vHhROpXvsgY4Pv3bv9OXZqe\r\n                    aF11pg93cWyanmOmslRiHc79K23yGwATdM9D8+ChURCyqbtfRNR+MM1aE/abHjQZ\r\n                    MDhXn6Zc+HgCD7QXqoNFRjfgSnjfCPA66ENvIEDMFQgUv/QVDpt5FhwowMQuOSrU\r\n                    csgzsrg1pagVl9Is/3HUslc9hGylAgMBAAGjggGyMIIBrjAMBgNVHRMBAf8EAjAA\r\n                    MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAOBgNVHQ8BAf8EBAMCBaAw\r\n                    NwYDVR0fBDAwLjAsoCqgKIYmaHR0cDovL2NybC5nb2RhZGR5LmNvbS9nZGlnMnMx\r\n                    LTYyMi5jcmwwXQYDVR0gBFYwVDBIBgtghkgBhv1tAQcXATA5MDcGCCsGAQUFBwIB\r\n                    FitodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMAgG\r\n                    BmeBDAECATB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3Nw\r\n                    LmdvZGFkZHkuY29tLzBABggrBgEFBQcwAoY0aHR0cDovL2NlcnRpZmljYXRlcy5n\r\n                    b2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkaWcyLmNydDAfBgNVHSMEGDAWgBRAwr0n\r\n                    jsw0gzCiM9f7bLPwtCyAzjAfBgNVHREEGDAWggdpMmUxLmluggt3d3cuaTJlMS5p\r\n                    bjAdBgNVHQ4EFgQUNOveJLIkpYA7JOoGpcT997kHRbowDQYJKoZIhvcNAQELBQAD\r\n                    ggEBAK34AI2vPcHXTd2bmH8E6gP5jr7Tzdsgrhlq9AgZNVu0ImuEpTyaKkbYHiZx\r\n                    VoIb50+DlzxarrpVXofBg1YKBF1Bwyv1q3EjhYXT6sZCL5p7jifO7X1kEujAp8rf\r\n                    XMXr9UXRjs1B0mOiW6nLyGPY4XITyoALk1LupZo3Yd3hUIuJPaO8zumJicl2GTi1\r\n                    EPu3+NJ6s5xatHuSM64b0+QxA/RTxGlBOmrfYsc5+wk242lLRl+SgOEctz76LWxi\r\n                    wCW8sAP8ibxomNdtcDHI6RA4j7uqc4TaUa8r96BauFBP4+PdHU5eDQzOvNHBedf1\r\n                    xccKOibtSm4QAMepd+PjQ9iRK24=\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180728"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e156c-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "jnmandal@cdot.in"
+                        ],
+                        "id": [
+                            "581e156c-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "C-DOT"
+                        ],
+                        "phone": [
+                            "+919868270044"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIID0TCCArmgAwIBAgIJALwxIcqBTttiMA0GCSqGSIb3DQEBCwUAMH8xCzAJBgNV\r\n                    BAYTAklOMQswCQYDVQQIDAJLQTESMBAGA1UEBwwJQkFOR0FMT1JFMQ4wDAYDVQQK\r\n                    DAVDLURPVDEMMAoGA1UECwwDUFNHMRAwDgYDVQQDDAdzYW5kZWVwMR8wHQYJKoZI\r\n                    hvcNAQkBFhBzYW5kZWVwYUBjZG90LmluMB4XDTE3MTAwMzA4MTYxMVoXDTE4MTAw\r\n                    MzA4MTYxMVowfzELMAkGA1UEBhMCSU4xCzAJBgNVBAgMAktBMRIwEAYDVQQHDAlC\r\n                    QU5HQUxPUkUxDjAMBgNVBAoMBUMtRE9UMQwwCgYDVQQLDANQU0cxEDAOBgNVBAMM\r\n                    B3NhbmRlZXAxHzAdBgkqhkiG9w0BCQEWEHNhbmRlZXBhQGNkb3QuaW4wggEiMA0G\r\n                    CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8khezAkWa2vbuofV7Mq6X2J+x/LQE\r\n                    qsmyhi7MId2oOX3WIeuvumcPp+tAm6Iiv3PQU1g6MPg7ehU0D6tW5fqe+3aGD8SD\r\n                    6TJA+630Wk+nKQwpZA5hJJLkuKF6cG6k1C10S/UdzizkzPJFMNoL8L8HTuzNdEPG\r\n                    wFy8sLVOeTlhj+a6xMhPzNxbfWpZbe62rPwEoWZbvYj0/RUd0a19shr2ueK7kB2G\r\n                    y9Gr0XCy5LSCKaSYgRg6ErXvQHiNS6/Re5K47C/CaAzPG86E7onNwz80PLz8RdiD\r\n                    uGdafjnukuNEWOVkM5B8/4SEojJ+hRU6rgWhlT3dK9RXhas2kjjj7Dz3AgMBAAGj\r\n                    UDBOMB0GA1UdDgQWBBTLuy7M2CxS1Cu9F3KWj/kMWrXlxjAfBgNVHSMEGDAWgBTL\r\n                    uy7M2CxS1Cu9F3KWj/kMWrXlxjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA\r\n                    A4IBAQCBbBVuMfGNBCjNxMgsZ7jU2D1ENcW/UtP6hrHdJPLAaG+6tMlqU/Rc8OSn\r\n                    IsCyJm/W/og4MVTpNmuFDuV1QCo+zZ3cUpI7tcTrp9iG7KQi6eVxmGDUHm1RgiJd\r\n                    zA+hIqGzXcGNZFV/KSh1RzcdU+2Hike+NvyeKcCwgvH6T64N7mPfzHdaihlWiL9x\r\n                    laeKvJYjYsWcwh6/xVT5Gegxpgudx9ifIrFXOXF/fF2b0ZyHayQ6uwPoOLOMpnRq\r\n                    KTr91gnt4OQIdckQ7AezxzmOzb9fXwlbxyGQ8pR43aiRNhcFr6LtuNXcfuV5VRjY\r\n                    CG3criqUFCpy9IAnr6cXNLNnE156\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20181003"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581dfc3a-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "ravi@mpgdigital.in"
+                        ],
+                        "id": [
+                            "581dfc3a-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "MPG Digital Platform P.Limited"
+                        ],
+                        "phone": [
+                            "+918108981089"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIF9jCCBN6gAwIBAgIQPH9TaHVhOPxZ3BOV3Y7RmTANBgkqhkiG9w0BAQsFADBE\r\n                    MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5jLjEdMBsGA1UEAxMU\r\n                    R2VvVHJ1c3QgU1NMIENBIC0gRzMwHhcNMTcwNzI3MDAwMDAwWhcNMTgwNzI3MjM1\r\n                    OTU5WjB2MQswCQYDVQQGEwJJTjEUMBIGA1UECAwLTWFoYXJhc2h0cmExDzANBgNV\r\n                    BAcMBk11bWJhaTEpMCcGA1UECgwgRHJ1dlRlY2ggU3lzdGVtcyBQcml2YXRlIExp\r\n                    bWl0ZWQxFTATBgNVBAMMDHd3dy51cGFzcy5jYzCCASIwDQYJKoZIhvcNAQEBBQAD\r\n                    ggEPADCCAQoCggEBAMmeFd3TADFaU5QLM8Ft4jWUx+IzC/O/6mwNL6ItDaktRC9L\r\n                    WMyiTFGTmsTv4PxhIyt/Tqf0+ZIJ8hjygnt2CJRToY8sAW6gc/0NOYhhXQ+Xv84P\r\n                    GtAKytD80V4x8scwo5ilZEqVx/rbDrzjCiThUI2yG+Eb/IyfD6W19KfA8DYtsEAT\r\n                    zcDg6pMg/S/cJAqvuxkeal0dvOlZgObNs5ixzlFxZlpGlhLtRdhnoZDP+gN8nCdd\r\n                    sjYgL7/CPCS7n9tPgCWDiGtzDrkntMiqHxoPgEXDLnlG6IuLoq46i6QukInSTrMc\r\n                    5Eoip0sd6dRmOUesetD3gzcBZTcWuqDXWmcDF3kCAwEAAaOCArAwggKsMCEGA1Ud\r\n                    EQQaMBiCDHd3dy51cGFzcy5jY4IIdXBhc3MuY2MwCQYDVR0TBAIwADAOBgNVHQ8B\r\n                    Af8EBAMCBaAwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2duLnN5bWNiLmNvbS9n\r\n                    bi5jcmwwgZ0GA1UdIASBlTCBkjCBjwYGZ4EMAQICMIGEMD8GCCsGAQUFBwIBFjNo\r\n                    dHRwczovL3d3dy5nZW90cnVzdC5jb20vcmVzb3VyY2VzL3JlcG9zaXRvcnkvbGVn\r\n                    YWwwQQYIKwYBBQUHAgIwNQwzaHR0cHM6Ly93d3cuZ2VvdHJ1c3QuY29tL3Jlc291\r\n                    cmNlcy9yZXBvc2l0b3J5L2xlZ2FsMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF\r\n                    BQcDAjAfBgNVHSMEGDAWgBTSb/eW9IU/cjwwfSPahXibo3xafDBXBggrBgEFBQcB\r\n                    AQRLMEkwHwYIKwYBBQUHMAGGE2h0dHA6Ly9nbi5zeW1jZC5jb20wJgYIKwYBBQUH\r\n                    MAKGGmh0dHA6Ly9nbi5zeW1jYi5jb20vZ24uY3J0MIIBBAYKKwYBBAHWeQIEAgSB\r\n                    9QSB8gDwAHYA3esdK3oNT6Ygi4GtgWhwfi6OnQHVXIiNPRHEzbbsvswAAAFdhAsJ\r\n                    LQAABAMARzBFAiA86E3J8rejhlSkJUVoftpiHzL+kIh+QntPOQL1QOLCgwIhAJIS\r\n                    19Ejp/X0Aq/IE93szmSVwTTS5q1ibVg5rxb0C3ULAHYApLkJkLQYWBSHuxOizGdw\r\n                    Cjw1mAT5G9+443fNDsgN3BAAAAFdhAsJRQAABAMARzBFAiEAy9JilYGGYv0E9Rbx\r\n                    JTe6LfBEOtCBCZwAPc0P0jS86ZsCIEhyFjRLK9ftWtlv1/b9OkYxdTGuAE15UXyg\r\n                    Tr0jiYLtMA0GCSqGSIb3DQEBCwUAA4IBAQAkxlnWseSb8RBWyFj1OCxeV5V0O4uR\r\n                    9ReFQ2yeOEOv1+pzmK9ABEJgHOk99sPlmw/7VQHQ4jCuUSjN3MnNrdBPYf7Txvdk\r\n                    S/3cP8qj8+hX6SuWykDY6WewIZppnbl3RgYgtQvdt9LTVUterfh4b3WXhvyHiZTO\r\n                    yfkpO/bAdvEdj3SBh8zw7Z8BenL2TacjefUXIk2xhCS0imbLOKH0NURyExg1i5MN\r\n                    +OX2qibzG6CkFJwnF2PAAZpQof6OZK4y0N021praq2MGbbrYnL4VEswK3+nYhidR\r\n                    Bo8i5t3v/fdNf2HG6Ie2HIVQLzgMF+EUIv5G6x0ymY4thN3Od5Zv7lUk\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180728"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581dfd20-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "rajneesh@aura.ind.in"
+                        ],
+                        "id": [
+                            "581dfd20-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Aura Ventures Pvt Ltd"
+                        ],
+                        "phone": [
+                            "9711994200"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIEAjCCAuqgAwIBAgIJAIan6kZ3Wyq4MA0GCSqGSIb3DQEBCwUAMIGVMQswCQYD\r\n                    VQQGEwJJTjELMAkGA1UECAwCSFIxEDAOBgNVBAcMB0d1cmdhb24xFjAUBgNVBAoM\r\n                    DUF1cmEgVmVudHVyZXMxEDAOBgNVBAsMB1RlbGVjb20xGDAWBgNVBAMMD3d3dy5h\r\n                    dXJhLmluZC5pbjEjMCEGCSqGSIb3DQEJARYUcmFqbmVlc2hAYXVyYS5pbmQuaW4w\r\n                    HhcNMTcxMDE2MDkyNjQ4WhcNMTgxMDE2MDkyNjQ4WjCBlTELMAkGA1UEBhMCSU4x\r\n                    CzAJBgNVBAgMAkhSMRAwDgYDVQQHDAdHdXJnYW9uMRYwFAYDVQQKDA1BdXJhIFZl\r\n                    bnR1cmVzMRAwDgYDVQQLDAdUZWxlY29tMRgwFgYDVQQDDA93d3cuYXVyYS5pbmQu\r\n                    aW4xIzAhBgkqhkiG9w0BCQEWFHJham5lZXNoQGF1cmEuaW5kLmluMIIBIjANBgkq\r\n                    hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2jydaaVQ7/cCVtAhjjOh2UNRi1MBsscc\r\n                    /khv84fCfsPamGBlR2AqQfrL9rEMNON0SWgOonBZhI1ww5m88OoOlijhKNAR4Zmv\r\n                    RNgBsoPaslPaZJJUUiSYXCrqgeDWkAmJzeOKOOzER1ubaRBmN8l9ntllo4X32272\r\n                    dY+/pDRt/0eMG+iNEXIc8oOcDgz9QosJml/rMBZ45/KKClABGv8P3lD29DNYHcXz\r\n                    ecRyayHxnyVY4CTfdkFO0Mw0DukEDUfFBiyM8w7PVF4IS/7Qi1yfXBoBBs4FF3sB\r\n                    12GcF+XFEC0mddQfWpnSKpY5MKD+ydbVLagF6L477maWd82oGanjswIDAQABo1Mw\r\n                    UTAdBgNVHQ4EFgQUzW+6wzlk3KymUIMKBSHonLIgj4wwHwYDVR0jBBgwFoAUzW+6\r\n                    wzlk3KymUIMKBSHonLIgj4wwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsF\r\n                    AAOCAQEAiTMNIIuIzh3SsX3vY5Oj9xTOYt2WUiocr2fSUH/j2M/y/FzNIxWKzAOV\r\n                    5XfHPh+GPoxNDo2c+QRqjyaE/InbMh26MNPLlnm6FcR2Ybcti2GZfX5QCK4qm0JH\r\n                    uhwpRhCkZAsFR99kp8LA8cwvX4dbVb1mSxLuKQ0WfDRZX0H1ES9SoP2d0Aa4gSrb\r\n                    MfDwln/9//snktE43XLCJ7ocYfa33SRkgcLxZNsu87ttTx1q2S3oUBHnQmKQnNKk\r\n                    6ttUqYr8k6caGIAwUWhoxWimHV6aALowZ3gCjD167wGb5eS9H0DHJJmwmGr5rlea\r\n                    jn809zQ0DrFbxExqhOvYAL9RtUcIZg==\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20181015"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e02ca-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "amit.kumar@spectra.co"
+                        ],
+                        "id": [
+                            "581e02ca-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Citycom Networks Private Limited"
+                        ],
+                        "phone": [
+                            "+919711880870"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIGWTCCBUGgAwIBAgIQYuFyveSNDOzn5QJxItj5STANBgkqhkiG9w0BAQsFADBC\r\n                    MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5jLjEbMBkGA1UEAxMS\r\n                    UmFwaWRTU0wgU0hBMjU2IENBMB4XDTE3MDgzMTAwMDAwMFoXDTIwMDgzMDIzNTk1\r\n                    OVowFzEVMBMGA1UEAwwMKi5zcGVjdHJhLmNvMIIBIjANBgkqhkiG9w0BAQEFAAOC\r\n                    AQ8AMIIBCgKCAQEAuR/4adUq+w/YuuKqSU1aFZCyOvyLuYJrl6TmanQTY8ZuQVJL\r\n                    3sPNin+p8A81tUsP8qWNzdwX5CiE/jUQsRwaIGNVHJsR7C7uh05jk9Qk6oJF9OTg\r\n                    ahmf8YQRMIMDqjZHUME9+4+WUizbviOFLTOXgthRzdhol/pMhIpKfZ8fuwNQoGwC\r\n                    hB1tiJps6M4Rgko8syg+ViuFqUCH+Jrs/pxRFUHWI0X1DsCt83/g2HInkPJf3NUc\r\n                    XFdmm4ZwW56gabTw1BFQi7FovljZchns66q+usD5HyBG2TPG9ZaKh6Nw5d1N4bgJ\r\n                    /CdIUcvUw5gZOHK3B+OrSq9bwnbQiLsQGDfs+QIDAQABo4IDdDCCA3AwIwYDVR0R\r\n                    BBwwGoIMKi5zcGVjdHJhLmNvggpzcGVjdHJhLmNvMAkGA1UdEwQCMAAwKwYDVR0f\r\n                    BCQwIjAgoB6gHIYaaHR0cDovL2dwLnN5bWNiLmNvbS9ncC5jcmwwbwYDVR0gBGgw\r\n                    ZjBkBgZngQwBAgEwWjAqBggrBgEFBQcCARYeaHR0cHM6Ly93d3cucmFwaWRzc2wu\r\n                    Y29tL2xlZ2FsMCwGCCsGAQUFBwICMCAMHmh0dHBzOi8vd3d3LnJhcGlkc3NsLmNv\r\n                    bS9sZWdhbDAfBgNVHSMEGDAWgBSXwidQnsLJ7AyIMsh8reKmAU/abzAOBgNVHQ8B\r\n                    Af8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMFcGCCsGAQUF\r\n                    BwEBBEswSTAfBggrBgEFBQcwAYYTaHR0cDovL2dwLnN5bWNkLmNvbTAmBggrBgEF\r\n                    BQcwAoYaaHR0cDovL2dwLnN5bWNiLmNvbS9ncC5jcnQwggH1BgorBgEEAdZ5AgQC\r\n                    BIIB5QSCAeEB3wB2AN3rHSt6DU+mIIuBrYFocH4ujp0B1VyIjT0RxM227L7MAAAB\r\n                    Xjda0YEAAAQDAEcwRQIhAIt5wpysUjCv3/ge++QIcHaRMD8Wj81TvAKndaK1K1fB\r\n                    AiBj8LozujCP5JQ8kQcvlp8BPLdHHD0ETJLWhW6HdACL2QB1AKS5CZC0GFgUh7sT\r\n                    osxncAo8NZgE+RvfuON3zQ7IDdwQAAABXjda0mMAAAQDAEYwRAIgW2h6sj1kawVn\r\n                    Q2HHJOWRRTPUfvRoPHHAQVTDLG06zIgCIHv2o8vbXakGUbfAG5X/g1qmMnpILkpB\r\n                    pUZdWnlfJbCXAHcA7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/csAAAFe\r\n                    N1rTeAAABAMASDBGAiEAsZ/NypninuSznON9hb9Lgl2+XEK50A38W+B6HJszeuoC\r\n                    IQCjaID1wxR1lFQcEK8CssEJiGYKNOpd9MLjaUYx85RS3AB1ALx44d/F9jxoRkkz\r\n                    TaEPoV8JeWkgCcCBtPP2kX8+2bilAAABXjda0nUAAAQDAEYwRAIgbLlt7WHomyeV\r\n                    kcY4qeWGgFVgo9OY/zyaeuceQAt1BDkCIBktvAx9rTyrIbznc4WSrbIqMsgSH1ct\r\n                    grMhUot6lDeGMA0GCSqGSIb3DQEBCwUAA4IBAQAmVWGKfBk+SDBuOmjn8U8zLmoz\r\n                    vMNoQNqQyK1nDB7GeSILws0gPbDreDHTrOqLImmVlYRIn7kZAADkmXoR+V5GVQ6T\r\n                    lZf6PGP1Ymg4oe7yL0pTFd3jVlb6DpqSxgRvj2dVqRBb6jc+71lboyZsxe3aAykS\r\n                    llJeX6FFiqBVpCueLlskKgNo6NaJFkFx4Qv1a45o6Rsb+Fsq1JVhcxMWIjFu6ZVI\r\n                    cFhbMnnEw4erTUAJwaAgxmSa7ni+QgYGRuAiga/mJKXgtxZYni3zys50goFJ7F9y\r\n                    X90Spat/0K+L7/GpGVF7aAHMVOHlUEfejyo6tY8MMIbLdfh1uyhXFC2dRZ09\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20200831"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581dfb5e-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "niksingh.wifiadda@gmail.com"
+                        ],
+                        "id": [
+                            "581dfb5e-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Dexworks Labs Private Limited"
+                        ],
+                        "phone": [
+                            "+917065545448"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                            -----BEGIN CERTIFICATE-----\r\n                    MIIETzCCAzegAwIBAgIJALnY8FVPLweyMA0GCSqGSIb3DQEBCwUAMIG9MQswCQYD\r\n                    VQQGEwJJTjEXMBUGA1UECAwOTWFkaHlhIFByYWRlc2gxDzANBgNVBAcMBkJob3Bh\r\n                    bDEmMCQGA1UECgwdRGV4d29ya3MgTGFicyBQcml2YXRlIExpbWl0ZWQxHzAdBgNV\r\n                    BAsMFldpZmkgU2VydmljZSBQcm92aWRlcnMxETAPBgNVBAMMCFdpZmlhZGRhMSgw\r\n                    JgYJKoZIhvcNAQkBFhloYXJpb20ud2lmaWFkZGFAZ21haWwuY29tMB4XDTE3MTAw\r\n                    MzE3MjMyNloXDTE4MTAwMzE3MjMyNlowgb0xCzAJBgNVBAYTAklOMRcwFQYDVQQI\r\n                    DA5NYWRoeWEgUHJhZGVzaDEPMA0GA1UEBwwGQmhvcGFsMSYwJAYDVQQKDB1EZXh3\r\n                    b3JrcyBMYWJzIFByaXZhdGUgTGltaXRlZDEfMB0GA1UECwwWV2lmaSBTZXJ2aWNl\r\n                    IFByb3ZpZGVyczERMA8GA1UEAwwIV2lmaWFkZGExKDAmBgkqhkiG9w0BCQEWGWhh\r\n                    cmlvbS53aWZpYWRkYUBnbWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw\r\n                    ggEKAoIBAQDy0hOkIV0pTsoxZT0cuHBk08AEKG+niHyunfS09pX7VofAsmstMGp1\r\n                    cOW3+uFu3IHNeTZv+/NGTaoEC1urwUxSUHriMLD+NxLpIjrVnEJxiutr5g2gmkvt\r\n                    IyERPbBiBSx5iu0JDvtKLp2pyUblIP7ycc+Xe6FEx0PHVY7GnxZuLRBnVqXAUmp2\r\n                    pHQoSHwBrTcHKk+5IvzX863VEs07+wcSpoAvZ5oSIDQusf5LEHc9cznh1PIEQXX+\r\n                    WEZSS0YNRve9088LvBBNO0edQHjE9YQsWMxvVhrZzOevxo3JihA0NpKQPbuvzqkJ\r\n                    ZJQizAP57KsR53QOGrSqaAc1SLJ7Yu3BAgMBAAGjUDBOMB0GA1UdDgQWBBTp8rYY\r\n                    jr542v8RMOpPL9kiJHk13TAfBgNVHSMEGDAWgBTp8rYYjr542v8RMOpPL9kiJHk1\r\n                    3TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAP+s44YNXHoBBVFup1\r\n                    TBScGcvDWeJxdft7cDu9k8qLs2tTjsDwBtAwFRhww/zkUtUHlDTkWFlZpCTOMPfb\r\n                    f97Ybl7glv9qW7YkLHVEANIbAw5vdLMrW8MFDS1BRNROhGcD7DRV0Eb95zXpsWbG\r\n                    uN82CZSuHhFf4SpvWoRKRZUENTeG2NgTXqqoag623SyUimSpKKOOgRr9A5fh6peh\r\n                    qd/AaZxrfzj25HciQlc9nuDdxjyd6OOToDsIfInJLsI9wNphnM2ElwPDk26xqb2e\r\n                    iAbjgWnaJUlWiAvO75Q2wFXCbFIkT+csRw24QQj97XMPoE346tvrLvJq6LqVOwDq\r\n                    ynuG\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20181003"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e1242-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "karam@wifidabba.com"
+                        ],
+                        "id": [
+                            "581e1242-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Wifi Dabba"
+                        ],
+                        "phone": [
+                            "+919986016213"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIDdjCCAl4CCQD74Hj9YJqMeTANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJJ\r\nTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYDVQQHDAlCYW5nYWxvcmUxEzARBgNV\r\nBAoMCldpZmkgRGFiYmExDTALBgNVBAsMBFRlY2gxIjAgBgkqhkiG9w0BCQEWE3N1\r\ncmFqQHdpZmlkYWJiYS5jb20wHhcNMTgwNzA1MTEwNzI2WhcNMTkwNzA1MTEwNzI2\r\nWjB9MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYDVQQHDAlC\r\nYW5nYWxvcmUxEzARBgNVBAoMCldpZmkgRGFiYmExDTALBgNVBAsMBFRlY2gxIjAg\r\nBgkqhkiG9w0BCQEWE3N1cmFqQHdpZmlkYWJiYS5jb20wggEiMA0GCSqGSIb3DQEB\r\nAQUAA4IBDwAwggEKAoIBAQDK+Jp1l7leIfxtey68PEdMMY5IhH1700AOVMN2UI7u\r\nwDJLflMUZI+7J+7EHIVCTjTrc5P4COPU+tBeAPmqvXiKx+GMF4cbhnDpn854i2LV\r\nk9/nV4Vj+Gr/fE26ZxtiFXaepUbLRoWV4cEyg+XXPSoTjyoYCbXBH88kfNZOFOvU\r\nGUqJ3LvfHVvTDd1nVxoLs3FQyPzdbzYcO7zewfA031zxr2TykqKwsm19/nrvwgrr\r\n1p/kE2L9FsnztVaQyeuV6XJibVzFMMFTH6QNz0BtCZ1vNp79b4yMBEzJGl8NwT43\r\nelrAraYlPty+Crhv17FifJ73JC0WNNn3BxLOaWfCXWyXAgMBAAEwDQYJKoZIhvcN\r\nAQEFBQADggEBAG8zfkwsXT/++XkLH79JJAA5Zxgsd/ZgRFxd9MEG65QP/5fg7yCP\r\npn8ONtpJ4sh59Pl3zDKtDb4yCuC1gT5F+USKLxpPA80VsnW0bKYIJJRyk7s/w57e\r\n8hn0nM+fOf4NC4dn11Z9hmt/OWpnlh8O8RrRvP4i8t1Kks+8qTtZBK/AAU0Au5ot\r\n1VQI3ge+xDCSqjNziG6mu2NFIJVQ4NZrbqbR3RIPEwJSgc8j46xYub9DeOlE6wzz\r\nBIbQoCMhIrZLKWY1UWGkJp9YyZu8D0qVEf1zle/JwQGiTTJyBKm5dUUkmXOhAdRw\r\n06u6iFgHksPK0+gOL1wHLvIHgFJBGZcyYBU=\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20190705"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581df866-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "ac@bluetown.com"
+                        ],
+                        "id": [
+                            "581df866-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Bluetown"
+                        ],
+                        "phone": [
+                            "+919212106194"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                            -----BEGIN CERTIFICATE-----\r\n                    MIIFlTCCBH2gAwIBAgIDIUc+MA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJ\r\nTjEqMCgGA1UEChMhZU11ZGhyYSBDb25zdW1lciBTZXJ2aWNlcyBMaW1pdGVkMR0w\r\nGwYDVQQLExRDZXJ0aWZ5aW5nIEF1dGhvcml0eTE0MDIGA1UEAxMrZS1NdWRocmEg\r\nU3ViIENBIGZvciBDbGFzcyAyIEluZGl2aWR1YWwgMjAxNDAeFw0xNTExMjcwNTQ1\r\nMTlaFw0xNzExMjcwNTQ1MTlaMIGpMQswCQYDVQQGEwJJTjERMA8GA1UECgwIUGVy\r\nc29uYWwxGzAZBgNVBAMMEkdVUFRBIFNBVFlBIE5BUkFJTjFJMEcGA1UEBRNANDFi\r\nN2FhMWNlMzNjNDZiNDkwOTJmNmMxMzliNWY3NDIxYTc3ZDU4MzA1YWRhOGFkZDk1\r\nZDhhNWFmMWQ5NzcxMzEPMA0GA1UEEQwGMTEwMDE2MQ4wDAYDVQQIDAVERUxISTCC\r\nASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKA+rfXBRtjq/dYUIT0qphhv\r\nXhfWbE2+FDS6SzNHilQbjiZ7q5+6fCz6hv/HvLA18G1qCkM2hmbGT5g4dSJM1NWI\r\n9dBN7LGAjQrPpVShzOpWw0qOs67HXdSINc4UQ/LWrC0emdJN9UsOHgvXNbdFugjD\r\nlunKRxaVRgLYKkHUlb0+WEL0iD6Eq6F8VA9SY17OItAmTdKR7wOrP85n6cG/RE33\r\nRZnlcOP+nE+W3Yexxdu5NEwkjmX/dIkRIMJi7DY7+mdjf+tgHWJpStKRASdNsV2O\r\ndxhO5WytJNrWnlO8PWt/c/YjrGEAzG73yBIUQJl1TAx40nMzC4RnrrbpX6BOdU0C\r\nAwEAAaOCAd0wggHZMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjATBgNV\r\nHSMEDDAKgAhOaKZ633FW3DB8BggrBgEFBQcBAQRwMG4wJQYIKwYBBQUHMAGGGWh0\r\ndHA6Ly9vY3NwLmUtbXVkaHJhLmNvbS8wRQYIKwYBBQUHMAKGOWh0dHA6Ly93d3cu\r\nZS1tdWRocmEuY29tL3JlcG9zaXRvcnkvY2FjZXJ0cy9DMklTQ0EyMDE0LmNydDCB\r\njAYDVR0gBIGEMIGBMC0GBmCCZGQCAjAjMCEGCCsGAQUFBwICMBUaE0NsYXNzIDIg\r\nQ2VydGlmaWNhdGUwUAYHYIJkZAEIAjBFMEMGCCsGAQUFBwIBFjdodHRwOi8vd3d3\r\nLmUtbXVkaHJhLmNvbS9yZXBvc2l0b3J5L2Nwcy9lLU11ZGhyYV9DUFMucGRmMEcG\r\nA1UdHwRAMD4wPKA6oDiGNmh0dHA6Ly93d3cuZS1tdWRocmEuY29tL3JlcG9zaXRv\r\ncnkvY3Jscy9DMklTQ0EyMDE0LmNybDAdBgNVHQ4EFgQUmxLQG4+7wUxQTKKdjLdo\r\nvOyEx34wDgYDVR0PAQH/BAQDAgbAMB4GA1UdEQQXMBWBE1NOR1VQVEE1N0BZQUhP\r\nTy5DT00wDQYJKoZIhvcNAQELBQADggEBAGQ6ncKPcEZrr44vpvRg86LJ1RytBq9L\r\nk3VwjfdB9XJsblJ5FrjS18BIeidiY+HXkBcnmvvaEG2J8bX9H7reQyNGbgEFRbr1\r\nUJ3CFPsuvu2sewMw1ZB8oOqyfPPh4hXqjfAJAaka2Z4e3dOJ6uIxqopoGlAR7MIw\r\nerbj+QOF2cooO2UP1xplxgyDk80l9hoZZ5EF7tP02MXnWb9EdoSN29rRiTQ7ylW3\r\nUxzMuqCvIR7UUSfh8PPA8/k1b1sK0ShThV4UpNwjHU9DlwJSKNC8bFVDMPjw1xW6\r\ncj6Qhek4VXkZPbE+vdtQR8uU8zb10q3BxAY6x7xDcFGbufTuKfbVjU4=\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20171127"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581deeb6-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "info@xifinetworks.com"
+                        ],
+                        "id": [
+                            "581deeb6-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "XiFi Smart Networks Pvt. Ltd."
+                        ],
+                        "phone": [
+                            "+919811000010"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                            -----BEGIN CERTIFICATE-----\r\n                    \r\nMIIEKzCCAxOgAwIBAgIJAIj26u9itHpaMA0GCSqGSIb3DQEBCwUAMIGrMQswCQYD\r\nVQQGEwJJTjEUMBIGA1UECAwLTWFoYXJhc2h0cmExDzANBgNVBAcMBk11bWJhaTEm\r\nMCQGA1UECgwdWGlGaSBTbWFydCBOZXR3b3JrcyBQdnQuIEx0ZC4xEzARBgNVBAsM\r\nClhpRmkgSW5kaWExEjAQBgNVBAMMCVhpRmkgUERPQTEkMCIGCSqGSIb3DQEJARYV\r\naW5mb0B4aWZpbmV0d29ya3MuY29tMB4XDTE3MTExNzEwMjgyNFoXDTIyMTExNjEw\r\nMjgyNFowgasxCzAJBgNVBAYTAklOMRQwEgYDVQQIDAtNYWhhcmFzaHRyYTEPMA0G\r\nA1UEBwwGTXVtYmFpMSYwJAYDVQQKDB1YaUZpIFNtYXJ0IE5ldHdvcmtzIFB2dC4g\r\nTHRkLjETMBEGA1UECwwKWGlGaSBJbmRpYTESMBAGA1UEAwwJWGlGaSBQRE9BMSQw\r\nIgYJKoZIhvcNAQkBFhVpbmZvQHhpZmluZXR3b3Jrcy5jb20wggEiMA0GCSqGSIb3\r\nDQEBAQUAA4IBDwAwggEKAoIBAQCskFJVIcvvb7uI1SfrfDlLCG+pQVjDd/Nzm3p4\r\nPr7EaBHvTjE5MVSpo64Ehl/DYoC+Zmy4k1M37a4hE5fjiW76p4b8YlNT0Q2OwZq2\r\namg0Mz2mMvh0LDVJ8PD9YCRCaMkTTjeoMLHCcBDYhXLFkzL8rWSK+jUosqLLvbN3\r\n3muDRcjXbSJgFkubFrN9T8nBeCbzlrcgQNWTbFaP4tIT+jnC558EG1R7lcAMKfUt\r\nUkHBwIwPIdcTtZW4Qn7sWmaDdOyY04qnw8g5wwKecvB+aHXaAkNgDZ8/iDsfUAIs\r\nnIXFjfwvq12TYSenGKm8SJIVaPQ5j8d//W8Jw6mCL37WvPXvAgMBAAGjUDBOMB0G\r\nA1UdDgQWBBR8ZecLYRgPx+zZALyVSVlE1ArMajAfBgNVHSMEGDAWgBR8ZecLYRgP\r\nx+zZALyVSVlE1ArMajAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBx\r\nGsk0hqQCiZf0gvDS8y4G4FbRpT60vQiRtzp7J0l3/BmmYeV7H4VTRKgU//8m0ZwC\r\nW1RF6UXlxLkeS0AXwGKBe4o4uYh5WtIPJW3HxhmugB+qM+NAPQqyOH2mKmGLTq98\r\nUdOjDN4PYsYlZ8HJzWTVErB/W6Q+GtQUjVjNY9S6D9b2lO2yG40dHP5PLejQivel\r\n916pndCFhk8RD7xPk5SaCjtc6jh3PNu0zZ0mROg48OJ12XUAr+BHgJETvZ8BOw5C\r\nOMCbnz3rHnaMEG7mLIxv8aspfJ4hcpjgRIz8FAlv5X4aLtZgHcwYUR4K1U9jsIco\r\nOnzmUHymwHhzUfMn8NiJ\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20221116"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/581e99ba-9def-11e7-abc4-cec278b6b50a/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "janyainfo@gmail.com"
+                        ],
+                        "id": [
+                            "581e99ba-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Janya Info Solutions India Pvt Ltd"
+                        ],
+                        "phone": [
+                            "+919425280727"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIGaDCCBVCgAwIBAgIEAN2IHjANBgkqhkiG9w0BAQsFADCBjjELMAkGA1UEBhMC\r\nSU4xKjAoBgNVBAoTIWVNdWRocmEgQ29uc3VtZXIgU2VydmljZXMgTGltaXRlZDEd\r\nMBsGA1UECxMUQ2VydGlmeWluZyBBdXRob3JpdHkxNDAyBgNVBAMTK2UtTXVkaHJh\r\nIFN1YiBDQSBmb3IgQ2xhc3MgMiBJbmRpdmlkdWFsIDIwMTQwHhcNMTcxMDA5MDgy\r\nNDAyWhcNMTkxMDA5MDgyNDAyWjCCAXYxCzAJBgNVBAYTAklOMREwDwYDVQQKEwhQ\r\nZXJzb25hbDEpMCcGA1UEQRMgZDJhM2Q3M2UyN2E4NDJhMzgzNGUyMjJhNjE4ZDBk\r\nOWExSTBHBgNVBBQTQDNmZDQwYjc0YmE0OWE1YTNhYzFiNjhhODU4NjkyODJiMDkx\r\nNzQxYzM0Y2ZjY2Q3ZGY0MDZhZTYyMmE2MWM1ZjQxDzANBgNVBBETBjQ5NTAwMTEV\r\nMBMGA1UECBMMQ2hoYXR0aXNnYXJoMUowSAYDVQQtA0EAODIzNjQxYWI5YWI0NTk4\r\nODgyZGMyNTgxNmM4YjA5ZDcwNjdkNjYwZGViMDdlOWZhNTg0MjI5ODIzMjhhYTk4\r\nODFJMEcGA1UEBRNAZGRiYWY2NzYzOWJmNzY2NjM3MjhhMjgzZTllZjNjZGY0YTQ1\r\nMTI4MzFkMzI3MTJiYjRhY2FjOGMzMGIxMDFjNzEfMB0GA1UEAxMWQ2hhbmRyYSBQ\r\ncmFrYXNoIFNoYXJtYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPYr\r\nPT/e9OozJ9BXZaDgXAg2OcbaADCNPkTNlZGbz+fBU6dQOJTDlYBhHG77GrGJtyCL\r\nv1s3pl5Lgm97S58PtQtvYoNDUKgSVg75Kdn8rz9umtpozgIcrknRB9QS5jl6Qv3V\r\nJaGzOYoJxw8Bv7e2fnf2Z5AimItimupFn8FZdRzKL3xs+2OwbyRtNuYE5bNxAxxj\r\nHcPrQJnLoua2NoLs0Dlc/YAcW/EPrymVhaDjYCI0jKKQ/LCgXu7o7qEaBk2p31tG\r\nRTd5EYtT9QqY3h6GACHSr1eu4NZm7KkuD98uv1CKIWmlEu9qFgk/kthN6zY8niAL\r\nq2D9pJK38n8ybMif/VcCAwEAAaOCAeEwggHdMBMGA1UdIwQMMAqACE5opnrfcVbc\r\nMB0GA1UdDgQWBBQwKTq96piVXUuPyXalpkZzELcZ7jAOBgNVHQ8BAf8EBAMCBsAw\r\nIwYDVR0RBBwwGoEYc2hhcmFtY3ByYWthc2hAZ21haWwuY29tMB0GA1UdJQQWMBQG\r\nCCsGAQUFBwMEBggrBgEFBQcDAjCBjAYDVR0gBIGEMIGBMC0GBmCCZGQCAjAjMCEG\r\nCCsGAQUFBwICMBUaE0NsYXNzIDIgQ2VydGlmaWNhdGUwUAYHYIJkZAEIAjBFMEMG\r\nCCsGAQUFBwIBFjdodHRwOi8vd3d3LmUtbXVkaHJhLmNvbS9yZXBvc2l0b3J5L2Nw\r\ncy9lLU11ZGhyYV9DUFMucGRmMHsGCCsGAQUFBwEBBG8wbTAkBggrBgEFBQcwAYYY\r\naHR0cDovL29jc3AuZS1tdWRocmEuY29tMEUGCCsGAQUFBzAChjlodHRwOi8vd3d3\r\nLmUtbXVkaHJhLmNvbS9yZXBvc2l0b3J5L2NhY2VydHMvQzJJU0NBMjAxNC5jcnQw\r\nRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL3d3dy5lLW11ZGhyYS5jb20vcmVwb3Np\r\ndG9yeS9jcmxzL0MySVNDQTIwMTQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQAI0GLZ\r\nCAYbumIDHp+SfDMmsHEjGlK+36z8N9rQCvdumCDkdDEPnQEJ3Bw9Tq1Q5/NwAT0Q\r\n2hVfiDQ6PTmmIgcs9eZyBt5/I/aglCJJUYb7KWMshIziRqTRkxW69oYRbEaJv9la\r\nw8eUFET8ofB20fpGPhaaGd6GC6s7OWdPZuPZUeAjJfrNgIDoxssv+V14k/x4GL+g\r\nGZUhv0h+8SBdbmBLF+KfXrMbunbTVR9tgu5e+1SGlRhsb99/aptMN6FkEtrGdoFD\r\n7KYdPlw2vAgndWGDDb3LxaWxDyy2ZfhR+ythzUqNErYZuXrZWnxxepZVaTSz8HE+\r\nOKbnTXf/PZuhcxVC\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20191019"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "apUrl": [
+                            "https://trai.gov.in/wani/registry/wani_providers/2f160127-b0c0-400d-8f7c-380a344ec326/wani_aplist.xml"
+                        ],
+                        "email": [
+                            "pankaj.dang@csc.gov.in"
+                        ],
+                        "id": [
+                            "2f160127-b0c0-400d-8f7c-380a344ec326"
+                        ],
+                        "name": [
+                            "CSC Wi-Fi Choupal Services India Pvt. Ltd."
+                        ],
+                        "phone": [
+                            "9899976819"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIFVzCCBD+gAwIBAgIQTxOhx+g3MP8kAnvSnFDWfjANBgkqhkiG9w0BAQsFADCB\r\nkDELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G\r\nA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxNjA0BgNV\r\nBAMTLUNPTU9ETyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD\r\nQTAeFw0xNzA1MjQwMDAwMDBaFw0xOTA1MjQyMzU5NTlaMF0xITAfBgNVBAsTGERv\r\nbWFpbiBDb250cm9sIFZhbGlkYXRlZDEdMBsGA1UECxMUUG9zaXRpdmVTU0wgV2ls\r\nZGNhcmQxGTAXBgNVBAMMECoud2lmaWNob3VwYWwuaW4wggEiMA0GCSqGSIb3DQEB\r\nAQUAA4IBDwAwggEKAoIBAQCjtCgz9hrJw6bL2JMNHYBXWtNnKC2mK6AhENNtwjM2\r\nhZ0h77KKajVgap7HrqFpXVTvNCzYbfZ9niYSWikG9niT2BDmWgSJ65StLcb9Xl0X\r\n+3SCg+wZCZT5CNyulSC/piHjV3FSgX0xW0iVpU5IYkQDSfl6dd6hahw+kkUvuLwB\r\nvumq4yd2OFt1EmNsvR6D61zffgsQ+7OpkhucE8yODySnnVYQPkHK3uNbQFaNob8k\r\npIeSlmNrOTgC/yYQM8iGYF2f9U7J98SIsEupkpngeR2vEwbQdnQfRAmRCFXVydWv\r\nROItnza5KCy74TnsF/wM+UMuc36K6mgbTK45901m3BITAgMBAAGjggHdMIIB2TAf\r\nBgNVHSMEGDAWgBSQr2o6lFoL2JDqElZz30O0Oija5zAdBgNVHQ4EFgQULtG+K2DL\r\nzrD0QOtQ4/GkhnT1VdEwDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYD\r\nVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCME8GA1UdIARIMEYwOgYLKwYBBAGy\r\nMQECAgcwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2RvLmNvbS9D\r\nUFMwCAYGZ4EMAQIBMFQGA1UdHwRNMEswSaBHoEWGQ2h0dHA6Ly9jcmwuY29tb2Rv\r\nY2EuY29tL0NPTU9ET1JTQURvbWFpblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQS5j\r\ncmwwgYUGCCsGAQUFBwEBBHkwdzBPBggrBgEFBQcwAoZDaHR0cDovL2NydC5jb21v\r\nZG9jYS5jb20vQ09NT0RPUlNBRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNB\r\nLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMCsGA1Ud\r\nEQQkMCKCECoud2lmaWNob3VwYWwuaW6CDndpZmljaG91cGFsLmluMA0GCSqGSIb3\r\nDQEBCwUAA4IBAQBBkqGbPSNdJ/WAd0GLXQD42+ywBi05ZxHpyqN4yXG/Bvn/wgyO\r\n4OlHrZ0gGkJSR4WXXu2jGwtNH565UQvYBxrgO5uwnwhxB3Nf5Q1VbC1YUaRFgE9c\r\ndeQG9JRpVBBpyB89n8JvGAQA0p6VAffjvKgweMXjVltXl5R2KnxfkGjqb85jcWj4\r\n90e/5BYUXNyWJwNe1tv/CcIzU2CJxsgEGq2B6gnaxfst7wJ3xh4IK/AYfS7VsvcJ\r\nQwyQb6E37L8SvQGpokv37iKZUxNF2HdBD0Wa7bOSXchk3UuCq3fjJT+8K7VBovN6\r\nX0+e4/OLii04PenZ9L8xDY/EP44BbDuovKDk\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20190524"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AppProviders": [
+            {
+                "AppProvider": [
+                    {
+                        "authUrl": [
+                            "https://api.yspot.in/v1/wani"
+                        ],
+                        "email": [
+                            "vikram@yspot.in"
+                        ],
+                        "id": [
+                            "581ea982-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Febler technologies"
+                        ],
+                        "phone": [
+                            "+919886132601"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIEEzCCAvugAwIBAgIJAO+/3oXDeICtMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYD\r\n                    VQQGEwJJTjESMBAGA1UECAwJa2FybmF0YWthMRIwEAYDVQQHDAliZW5nYWx1cnUx\r\n                    JDAiBgNVBAoMG0ZlYmxlciB0ZWNobm9sb2dpZXMgcHZ0IGx0ZDEOMAwGA1UECwwF\r\n                    eXNwb3QxETAPBgNVBAMMCHlzcG90LmluMR8wHQYJKoZIhvcNAQkBFhBjb250YWN0\r\n                    QHlzcG90LmluMB4XDTE3MDkyNjA5MDMwOFoXDTE4MDkyNjA5MDMwOFowgZ8xCzAJ\r\n                    BgNVBAYTAklOMRIwEAYDVQQIDAlrYXJuYXRha2ExEjAQBgNVBAcMCWJlbmdhbHVy\r\n                    dTEkMCIGA1UECgwbRmVibGVyIHRlY2hub2xvZ2llcyBwdnQgbHRkMQ4wDAYDVQQL\r\n                    DAV5c3BvdDERMA8GA1UEAwwIeXNwb3QuaW4xHzAdBgkqhkiG9w0BCQEWEGNvbnRh\r\n                    Y3RAeXNwb3QuaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRFPwJ\r\n                    6pzJM8xquz5sUjCzgZ03Df3lMhJYaXl52Ohy517FITcMSHWnHh2kAaxMsAQnk/nO\r\n                    aDbDXtK5h+/9TLWwpfpz0t2vR7Ccv2g+YdI7sfeovPti5TyhJ9Ajmihtm6ICDFDj\r\n                    EloiAgJfGRs7qbLPSLtoaNw+y4aE39rxFS2Pn+TbVFx1aHZtKjNzNHO4DmJBJxEO\r\n                    JVgp4NG72ghY6EVybeJP9HE5o23XqgiVJPYBX9sjUxBtQ9VQB023wiq+OL/lKXM3\r\n                    T7SUnXTKcP61x48lGeGezMwwrP/+PQL+Bk+3fPx69aKRTW7CzUvkYdQ23V5BNuoi\r\n                    fC8ldqWhMF1xxYG1AgMBAAGjUDBOMB0GA1UdDgQWBBTm9slP03eFEUbWgGrBaJFl\r\n                    4dFMTDAfBgNVHSMEGDAWgBTm9slP03eFEUbWgGrBaJFl4dFMTDAMBgNVHRMEBTAD\r\n                    AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAyxP2ko+vUvn4fbGnYQ0EMpGvc03Cwl4DY\r\n                    4nE8uiKwlic1FRqdyBlkxdTxmF1QDhvbmxeDU7gI2bKllkRa4k8oYOpnf/99t1n0\r\n                    BwJB11Sp4x9aLMuTdiUPQAV09sYrzlwxAFFBVzcNcDAcK8WPRh10434UBg+y4pCI\r\n                    /m73JgIqz7hKL8W3Bj0HqIcthFeP31qQbkjcScbRrrQqklHvVZ+nQXmwkfJibXn9\r\n                    mOKFavwz2BYIOFw00bZdatOKWuGgCGqmCUM6emMuXkeKoldmwR5YyTH9Yv+iZFIH\r\n                    Mi6dxQoAfWFx7KbmCuRQ1B5JcA4/I9qiIpJQ6lNOEVMQIWVCU7gG\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180926"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "https://www.i2e1.in/TRAI/submitAuthToken"
+                        ],
+                        "email": [
+                            "gb@i2e1.com"
+                        ],
+                        "id": [
+                            "581e8f06-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Omnia Information Pvt Ltd"
+                        ],
+                        "phone": [
+                            "+919818482844"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----\r\n                    MIIFIDCCBAigAwIBAgIIE+yCXGfGPr0wDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNV\r\n                    BAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRow\r\n                    GAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjEtMCsGA1UECxMkaHR0cDovL2NlcnRz\r\n                    LmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMTMwMQYDVQQDEypHbyBEYWRkeSBTZWN1\r\n                    cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwHhcNMTcwNzI4MDgzMTAwWhcN\r\n                    MTgwNzI4MDgzMTAwWjA1MSEwHwYDVQQLExhEb21haW4gQ29udHJvbCBWYWxpZGF0\r\n                    ZWQxEDAOBgNVBAMTB2kyZTEuaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\r\n                    AoIBAQDJUnypLyraXsAtf+mkP1ijEXCwFrpZzfMr2W1vmAi++1n0X/9Kcp2RYcGv\r\n                    txgGtP0Mmdlv2kcdydGaJSrIyBO3xHbZe2bBah6kex8s6QdYBCBn0v9CMaEXf3mj\r\n                    Z7m1ic7JSbqtD5G2WpVnH+7Wta1P86qEWTi03wZ55vHhROpXvsgY4Pv3bv9OXZqe\r\n                    aF11pg93cWyanmOmslRiHc79K23yGwATdM9D8+ChURCyqbtfRNR+MM1aE/abHjQZ\r\n                    MDhXn6Zc+HgCD7QXqoNFRjfgSnjfCPA66ENvIEDMFQgUv/QVDpt5FhwowMQuOSrU\r\n                    csgzsrg1pagVl9Is/3HUslc9hGylAgMBAAGjggGyMIIBrjAMBgNVHRMBAf8EAjAA\r\n                    MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAOBgNVHQ8BAf8EBAMCBaAw\r\n                    NwYDVR0fBDAwLjAsoCqgKIYmaHR0cDovL2NybC5nb2RhZGR5LmNvbS9nZGlnMnMx\r\n                    LTYyMi5jcmwwXQYDVR0gBFYwVDBIBgtghkgBhv1tAQcXATA5MDcGCCsGAQUFBwIB\r\n                    FitodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMAgG\r\n                    BmeBDAECATB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3Nw\r\n                    LmdvZGFkZHkuY29tLzBABggrBgEFBQcwAoY0aHR0cDovL2NlcnRpZmljYXRlcy5n\r\n                    b2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkaWcyLmNydDAfBgNVHSMEGDAWgBRAwr0n\r\n                    jsw0gzCiM9f7bLPwtCyAzjAfBgNVHREEGDAWggdpMmUxLmluggt3d3cuaTJlMS5p\r\n                    bjAdBgNVHQ4EFgQUNOveJLIkpYA7JOoGpcT997kHRbowDQYJKoZIhvcNAQELBQAD\r\n                    ggEBAK34AI2vPcHXTd2bmH8E6gP5jr7Tzdsgrhlq9AgZNVu0ImuEpTyaKkbYHiZx\r\n                    VoIb50+DlzxarrpVXofBg1YKBF1Bwyv1q3EjhYXT6sZCL5p7jifO7X1kEujAp8rf\r\n                    XMXr9UXRjs1B0mOiW6nLyGPY4XITyoALk1LupZo3Yd3hUIuJPaO8zumJicl2GTi1\r\n                    EPu3+NJ6s5xatHuSM64b0+QxA/RTxGlBOmrfYsc5+wk242lLRl+SgOEctz76LWxi\r\n                    wCW8sAP8ibxomNdtcDHI6RA4j7uqc4TaUa8r96BauFBP4+PdHU5eDQzOvNHBedf1\r\n                    xccKOibtSm4QAMepd+PjQ9iRK24=\r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180731"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "https://wifireauth.mobstac.com/wani/v1/login"
+                        ],
+                        "email": [
+                            "sharat@mobstac.com"
+                        ],
+                        "id": [
+                            "581eaafe-9def-11e7-abc4-cec278b6b50k"
+                        ],
+                        "name": [
+                            "WiFire"
+                        ],
+                        "phone": [
+                            "+9845655692"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "\r\n                    -----BEGIN CERTIFICATE-----                    \r\n                    MIID3zCCAsegAwIBAgIJAOP1siRXx52gMA0GCSqGSIb3DQEBCwUAMIGFMQswCQYD\r\n                    VQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYDVQQHDAlCYW5nYWxvcmUx\r\n                    EDAOBgNVBAoMB01vYlN0YWMxGTAXBgNVBAMMEGdldHdpZmlyZWFwcC5jb20xITAf\r\n                    BgkqhkiG9w0BCQEWEndpZmlyZUBtb2JzdGFjLmNvbTAeFw0xNzEwMTYwNDU0Mjla\r\n                    Fw0xODEwMTYwNDU0MjlaMIGFMQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0\r\n                    YWthMRIwEAYDVQQHDAlCYW5nYWxvcmUxEDAOBgNVBAoMB01vYlN0YWMxGTAXBgNV\r\n                    BAMMEGdldHdpZmlyZWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEndpZmlyZUBtb2Jz\r\n                    dGFjLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJXsnHL9hxzY\r\n                    kJwNdxs3hYXOr2NzVh5deYa5X5ZBsr9FBTUQLfPRu2FriWgIAu3aFzizUKOW5LcL\r\n                    I2p8yxIX61Jp1zeFi01VaWuYkXFljW7xhKIBn7QhIJHsTwQcNHF+i5ivxytf0cpW\r\n                    f2Tvh9nhtLNRZesLRiQ45Bjwt1seWuWMAP01e2mD895KXfvwxhVwYHjpKJtX3yYm\r\n                    /kcCz8tyTX4M0NaPNTJIhzZh10Bfywm4QWcx4zu1cot25xwtbNOF1fOvMKCV6q8n\r\n                    f7Z5kM4tWHwlo6cxs8RzT/srML+E+5MQFYfgwGRei6mh9Fqe5ZFMGqwScOR+ivNj\r\n                    RLjeWoOOG5ECAwEAAaNQME4wHQYDVR0OBBYEFMJbfwdK71AE/d0D/STKAbZ5Q+Pw\r\n                    MB8GA1UdIwQYMBaAFMJbfwdK71AE/d0D/STKAbZ5Q+PwMAwGA1UdEwQFMAMBAf8w\r\n                    DQYJKoZIhvcNAQELBQADggEBAGuuEM0yFPb/QqL+FSQxvcOlllCCsfFVRKChwPp+\r\n                    M6HTWseFUuAlwooK+5+L449zHxCvlIsLq+abBB3Fqnpwaj5vO1TSzhmyWerGt/g+\r\n                    YnSPV95benDuEnz/oAKsCI3+T93RraaRgOsbzt4chJSv95pExPOKKF2jXqVL62KL\r\n                    kQs3iKSAwjuG7ih19g0zFlM/vxthG8X7kj2Hno1WWsOcEvjZ0MLkavD98A9RkLz+\r\n                    VO4+b/xeJJSgfJ2KGdVjfN0tW/KsWxDAdOlzEWF3UMBanDjIMWUmVSNjTbguvucK\r\n                    OnTUj+JfT5XPH6t9N7G3h+NYfBNVbcBkb3iZGb+lSQlOTIs=                    \r\n                    -----END CERTIFICATE-----\r\n                ",
+                                        "exp": [
+                                            "20180731"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "https://rechargews-staging.paytm.com/recharge/v1/token/"
+                        ],
+                        "email": [
+                            "varun1.sehgal@paytm.com"
+                        ],
+                        "id": [
+                            "581e8e02-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "ONE97 Communications Ltd"
+                        ],
+                        "phone": [
+                            "9999196785"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIDYDCCAkigAwIBAgIJAIIwBb1RvhgtMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV\r\nBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX\r\naWRnaXRzIFB0eSBMdGQwHhcNMTgwMTE2MTE1NzA0WhcNMTkwMTE2MTE1NzA0WjBF\r\nMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50\r\nZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\r\nCgKCAQEA1DXXluvvpBy/nV3E4IFBYYlRAqERo/mHNqR2aZF7ArBL8wCRR1JIsr2/\r\n25l7H2E2p+NTU/BVD3IEYWllsrOW4QOjtwvCV67c/US53RDbyS940LVmr9DliISC\r\nLrAbwS2iK2Obj+8vJf5RaVuAJn0CYJUaVIouLzKREY83sWXwGspJmhpzn/jTSnHy\r\nDcjfPMT1+wadJx/W28p7e0OqcE9WBXtAjZ8pRU3ov02r3iRMRUTJGBVz4bYfwy8K\r\nFSlv8nyj791XOTXP5pFstoJt3k5jf3/HaAyjMyfNyfxkLJwwUud6PVszMnpaFNBg\r\nEriwv5V1/G1elAyVPmVA28WLhKXjwwIDAQABo1MwUTAdBgNVHQ4EFgQUGps2U/we\r\n8g7lxB3x6i7ruIab0UcwHwYDVR0jBBgwFoAUGps2U/we8g7lxB3x6i7ruIab0Ucw\r\nDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQHJmShP0Df4adxFZ\r\nX8+K4A2XJYZSCuOJ8ovQYeMzWksR5vJIMvM3e1h6lYYZD2Va2l+u8uaBYeRTGTS8\r\nSOXpW1g1T+7pqxu97/UQJxmHaH9sfJrNifo5HyMI1IXVP1QSfvGu74WQWzddtB3B\r\npLoP/ifTdGcQajgZGh8dgre3xS4TI1snsLanuQMjtwAAw/KrqMY6/qGmhhczkM5e\r\nksoyY0XHmhMAUz9ksrCay/ghVoolatSwDu0JqAkxa2weQZOkSfcUwTO24hhHnSUs\r\nKScaXf1ww1EPTUrRhMcRFJYKhwDzwaOl4ZYuXXocVJ7Gz3raMtvuDNU16DNl2YDH\r\nP0xKag==\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20190116"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "https://cdotwani.cdot.in:8002/trai/app/getprofile"
+                        ],
+                        "email": [
+                            "sandeepa@cdot.in"
+                        ],
+                        "id": [
+                            "737481d8-b825-4957-b98d-3fb57f906840"
+                        ],
+                        "name": [
+                            "C-DOT"
+                        ],
+                        "phone": [
+                            "9008787186"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIID4zCCAsugAwIBAgIJALavQ/TqHX1PMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYD\r\nVQQGEwJJTjESMBAGA1UECAwJS0FSTkFUQUtBMRgwFgYDVQQHDA9FTEVDVFJPTklD\r\nIENJVFkxDTALBgNVBAoMBENET1QxDDAKBgNVBAsMA1BTRzEOMAwGA1UEAwwFQW5t\r\nb2wxHTAbBgkqhkiG9w0BCQEWDmFubW9scEBjZG90LmluMB4XDTE4MDUxNDA0MjMz\r\nOFoXDTE5MDUxNDA0MjMzOFowgYcxCzAJBgNVBAYTAklOMRIwEAYDVQQIDAlLQVJO\r\nQVRBS0ExGDAWBgNVBAcMD0VMRUNUUk9OSUMgQ0lUWTENMAsGA1UECgwEQ0RPVDEM\r\nMAoGA1UECwwDUFNHMQ4wDAYDVQQDDAVBbm1vbDEdMBsGCSqGSIb3DQEJARYOYW5t\r\nb2xwQGNkb3QuaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+r5aR\r\nfqDp1r4uVVA4R8Dg2U+a8WjKKuwCF9G5l2xBXfob6KhhZDnTRxT1kwVTmN/rSYxy\r\nuWGMsVnaT4eFPOcqZwq3KCzvv25GVsEcjHOPHcKFe9mW15O6+IVf93JHEbmwbqHS\r\n+iOA6NvjeJh+EPJBTOalMCmzPwhl5uTsPUOU2zCnz/q8S5SnUz6rx1ioYFO5VMz/\r\nmWmUdo8pW4/q0BxAQjWUtSj9o9niDm7k8lsWUcDypbmzamvSrhsZhyXruIymVjBf\r\nyG9rfz06o2trcUpCq0QLrkyZQzSnH/w298qhFW0IsOFnaAP8W0+aPzl9wCaFJII3\r\n9oqUyH4UdhQyHNjVAgMBAAGjUDBOMB0GA1UdDgQWBBQw6BVxg0ILBZKzz99XFwD1\r\n0jibqzAfBgNVHSMEGDAWgBQw6BVxg0ILBZKzz99XFwD10jibqzAMBgNVHRMEBTAD\r\nAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCAvEAwlvfv7bLEGpVXx3gJg5Sub9WovMjd\r\ngqJGynYiwtffB8pBgdvS5Klf0Z2J+/VZnHz8gM0DhVIwQXKKdk4QBxRD6umLp7Ll\r\n6u2h+LeN0RHDMZ9gviKcI8u9/xfe0kX5onab2P0lhe0lQsFpnvOyIg8CRJtdqcKr\r\nO0tx7+Dv8qbuV4W0JVqacvNuReFFZjnwXt2Ux4lb2aIQ/Fld/byJaAWwLkEcyHjG\r\nKFKa5TSXo1DdPxrT/VyjU4ZRSG9WY02sJagHJxr5woa9/CL0+A0tfeW/Z+cIUvhD\r\nt0y92EdLR74R7FOAjV1zTYl4MBb7PYmFYd9d0S9iV7r++pFN9ePp\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20190514"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "http://35.154.175.58/xifi/app/v/1"
+                        ],
+                        "email": [
+                            "xifi@quanteon.in"
+                        ],
+                        "id": [
+                            "ed4840b6-a514-47b6-b823-e37a88172118"
+                        ],
+                        "name": [
+                            "XiFi Smart Networks Pvt. Ltd."
+                        ],
+                        "phone": [
+                            "9811000010"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIDYDCCAkigAwIBAgIJAIIwBb1RvhgtMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV\r\nBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX\r\naWRnaXRzIFB0eSBMdGQwHhcNMTgwMTE2MTE1NzA0WhcNMTkwMTE2MTE1NzA0WjBF\r\nMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50\r\nZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\r\nCgKCAQEA1DXXluvvpBy/nV3E4IFBYYlRAqERo/mHNqR2aZF7ArBL8wCRR1JIsr2/\r\n25l7H2E2p+NTU/BVD3IEYWllsrOW4QOjtwvCV67c/US53RDbyS940LVmr9DliISC\r\nLrAbwS2iK2Obj+8vJf5RaVuAJn0CYJUaVIouLzKREY83sWXwGspJmhpzn/jTSnHy\r\nDcjfPMT1+wadJx/W28p7e0OqcE9WBXtAjZ8pRU3ov02r3iRMRUTJGBVz4bYfwy8K\r\nFSlv8nyj791XOTXP5pFstoJt3k5jf3/HaAyjMyfNyfxkLJwwUud6PVszMnpaFNBg\r\nEriwv5V1/G1elAyVPmVA28WLhKXjwwIDAQABo1MwUTAdBgNVHQ4EFgQUGps2U/we\r\n8g7lxB3x6i7ruIab0UcwHwYDVR0jBBgwFoAUGps2U/we8g7lxB3x6i7ruIab0Ucw\r\nDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQHJmShP0Df4adxFZ\r\nX8+K4A2XJYZSCuOJ8ovQYeMzWksR5vJIMvM3e1h6lYYZD2Va2l+u8uaBYeRTGTS8\r\nSOXpW1g1T+7pqxu97/UQJxmHaH9sfJrNifo5HyMI1IXVP1QSfvGu74WQWzddtB3B\r\npLoP/ifTdGcQajgZGh8dgre3xS4TI1snsLanuQMjtwAAw/KrqMY6/qGmhhczkM5e\r\nksoyY0XHmhMAUz9ksrCay/ghVoolatSwDu0JqAkxa2weQZOkSfcUwTO24hhHnSUs\r\nKScaXf1ww1EPTUrRhMcRFJYKhwDzwaOl4ZYuXXocVJ7Gz3raMtvuDNU16DNl2YDH\r\nP0xKag==\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20181231"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "http://45.64.213.14/janya_cp/"
+                        ],
+                        "email": [
+                            "janyainfo@gmail.com"
+                        ],
+                        "id": [
+                            "581e4e24-9def-11e7-abc4-cec278b6b50a"
+                        ],
+                        "name": [
+                            "Janya Info Solutions India Pvt Ltd"
+                        ],
+                        "phone": [
+                            "9425280727"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIGaDCCBVCgAwIBAgIEAN2IHjANBgkqhkiG9w0BAQsFADCBjjELMAkGA1UEBhMC\r\nSU4xKjAoBgNVBAoTIWVNdWRocmEgQ29uc3VtZXIgU2VydmljZXMgTGltaXRlZDEd\r\nMBsGA1UECxMUQ2VydGlmeWluZyBBdXRob3JpdHkxNDAyBgNVBAMTK2UtTXVkaHJh\r\nIFN1YiBDQSBmb3IgQ2xhc3MgMiBJbmRpdmlkdWFsIDIwMTQwHhcNMTcxMDA5MDgy\r\nNDAyWhcNMTkxMDA5MDgyNDAyWjCCAXYxCzAJBgNVBAYTAklOMREwDwYDVQQKEwhQ\r\nZXJzb25hbDEpMCcGA1UEQRMgZDJhM2Q3M2UyN2E4NDJhMzgzNGUyMjJhNjE4ZDBk\r\nOWExSTBHBgNVBBQTQDNmZDQwYjc0YmE0OWE1YTNhYzFiNjhhODU4NjkyODJiMDkx\r\nNzQxYzM0Y2ZjY2Q3ZGY0MDZhZTYyMmE2MWM1ZjQxDzANBgNVBBETBjQ5NTAwMTEV\r\nMBMGA1UECBMMQ2hoYXR0aXNnYXJoMUowSAYDVQQtA0EAODIzNjQxYWI5YWI0NTk4\r\nODgyZGMyNTgxNmM4YjA5ZDcwNjdkNjYwZGViMDdlOWZhNTg0MjI5ODIzMjhhYTk4\r\nODFJMEcGA1UEBRNAZGRiYWY2NzYzOWJmNzY2NjM3MjhhMjgzZTllZjNjZGY0YTQ1\r\nMTI4MzFkMzI3MTJiYjRhY2FjOGMzMGIxMDFjNzEfMB0GA1UEAxMWQ2hhbmRyYSBQ\r\ncmFrYXNoIFNoYXJtYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPYr\r\nPT/e9OozJ9BXZaDgXAg2OcbaADCNPkTNlZGbz+fBU6dQOJTDlYBhHG77GrGJtyCL\r\nv1s3pl5Lgm97S58PtQtvYoNDUKgSVg75Kdn8rz9umtpozgIcrknRB9QS5jl6Qv3V\r\nJaGzOYoJxw8Bv7e2fnf2Z5AimItimupFn8FZdRzKL3xs+2OwbyRtNuYE5bNxAxxj\r\nHcPrQJnLoua2NoLs0Dlc/YAcW/EPrymVhaDjYCI0jKKQ/LCgXu7o7qEaBk2p31tG\r\nRTd5EYtT9QqY3h6GACHSr1eu4NZm7KkuD98uv1CKIWmlEu9qFgk/kthN6zY8niAL\r\nq2D9pJK38n8ybMif/VcCAwEAAaOCAeEwggHdMBMGA1UdIwQMMAqACE5opnrfcVbc\r\nMB0GA1UdDgQWBBQwKTq96piVXUuPyXalpkZzELcZ7jAOBgNVHQ8BAf8EBAMCBsAw\r\nIwYDVR0RBBwwGoEYc2hhcmFtY3ByYWthc2hAZ21haWwuY29tMB0GA1UdJQQWMBQG\r\nCCsGAQUFBwMEBggrBgEFBQcDAjCBjAYDVR0gBIGEMIGBMC0GBmCCZGQCAjAjMCEG\r\nCCsGAQUFBwICMBUaE0NsYXNzIDIgQ2VydGlmaWNhdGUwUAYHYIJkZAEIAjBFMEMG\r\nCCsGAQUFBwIBFjdodHRwOi8vd3d3LmUtbXVkaHJhLmNvbS9yZXBvc2l0b3J5L2Nw\r\ncy9lLU11ZGhyYV9DUFMucGRmMHsGCCsGAQUFBwEBBG8wbTAkBggrBgEFBQcwAYYY\r\naHR0cDovL29jc3AuZS1tdWRocmEuY29tMEUGCCsGAQUFBzAChjlodHRwOi8vd3d3\r\nLmUtbXVkaHJhLmNvbS9yZXBvc2l0b3J5L2NhY2VydHMvQzJJU0NBMjAxNC5jcnQw\r\nRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL3d3dy5lLW11ZGhyYS5jb20vcmVwb3Np\r\ndG9yeS9jcmxzL0MySVNDQTIwMTQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQAI0GLZ\r\nCAYbumIDHp+SfDMmsHEjGlK+36z8N9rQCvdumCDkdDEPnQEJ3Bw9Tq1Q5/NwAT0Q\r\n2hVfiDQ6PTmmIgcs9eZyBt5/I/aglCJJUYb7KWMshIziRqTRkxW69oYRbEaJv9la\r\nw8eUFET8ofB20fpGPhaaGd6GC6s7OWdPZuPZUeAjJfrNgIDoxssv+V14k/x4GL+g\r\nGZUhv0h+8SBdbmBLF+KfXrMbunbTVR9tgu5e+1SGlRhsb99/aptMN6FkEtrGdoFD\r\n7KYdPlw2vAgndWGDDb3LxaWxDyy2ZfhR+ythzUqNErYZuXrZWnxxepZVaTSz8HE+\r\nOKbnTXf/PZuhcxVC\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20191019"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "authUrl": [
+                            "https://login.wifichoupal.in/wani/authurl.php"
+                        ],
+                        "email": [
+                            "pankaj.dang@csc.gov.in"
+                        ],
+                        "id": [
+                            "191b9b41-549b-4948-b8ae-bc2004b7cb3b"
+                        ],
+                        "name": [
+                            "CSC WiFi Choupal Services India Pvt. Ltd"
+                        ],
+                        "phone": [
+                            "9899976819"
+                        ],
+                        "rating": [
+                            ""
+                        ],
+                        "status": [
+                            "ACTIVE"
+                        ],
+                        "Keys": [
+                            {
+                                "Key": [
+                                    {
+                                        "_": "-----BEGIN CERTIFICATE-----\r\nMIIFVzCCBD+gAwIBAgIQTxOhx+g3MP8kAnvSnFDWfjANBgkqhkiG9w0BAQsFADCB\r\nkDELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G\r\nA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxNjA0BgNV\r\nBAMTLUNPTU9ETyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD\r\nQTAeFw0xNzA1MjQwMDAwMDBaFw0xOTA1MjQyMzU5NTlaMF0xITAfBgNVBAsTGERv\r\nbWFpbiBDb250cm9sIFZhbGlkYXRlZDEdMBsGA1UECxMUUG9zaXRpdmVTU0wgV2ls\r\nZGNhcmQxGTAXBgNVBAMMECoud2lmaWNob3VwYWwuaW4wggEiMA0GCSqGSIb3DQEB\r\nAQUAA4IBDwAwggEKAoIBAQCjtCgz9hrJw6bL2JMNHYBXWtNnKC2mK6AhENNtwjM2\r\nhZ0h77KKajVgap7HrqFpXVTvNCzYbfZ9niYSWikG9niT2BDmWgSJ65StLcb9Xl0X\r\n+3SCg+wZCZT5CNyulSC/piHjV3FSgX0xW0iVpU5IYkQDSfl6dd6hahw+kkUvuLwB\r\nvumq4yd2OFt1EmNsvR6D61zffgsQ+7OpkhucE8yODySnnVYQPkHK3uNbQFaNob8k\r\npIeSlmNrOTgC/yYQM8iGYF2f9U7J98SIsEupkpngeR2vEwbQdnQfRAmRCFXVydWv\r\nROItnza5KCy74TnsF/wM+UMuc36K6mgbTK45901m3BITAgMBAAGjggHdMIIB2TAf\r\nBgNVHSMEGDAWgBSQr2o6lFoL2JDqElZz30O0Oija5zAdBgNVHQ4EFgQULtG+K2DL\r\nzrD0QOtQ4/GkhnT1VdEwDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYD\r\nVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCME8GA1UdIARIMEYwOgYLKwYBBAGy\r\nMQECAgcwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2RvLmNvbS9D\r\nUFMwCAYGZ4EMAQIBMFQGA1UdHwRNMEswSaBHoEWGQ2h0dHA6Ly9jcmwuY29tb2Rv\r\nY2EuY29tL0NPTU9ET1JTQURvbWFpblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQS5j\r\ncmwwgYUGCCsGAQUFBwEBBHkwdzBPBggrBgEFBQcwAoZDaHR0cDovL2NydC5jb21v\r\nZG9jYS5jb20vQ09NT0RPUlNBRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNB\r\nLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMCsGA1Ud\r\nEQQkMCKCECoud2lmaWNob3VwYWwuaW6CDndpZmljaG91cGFsLmluMA0GCSqGSIb3\r\nDQEBCwUAA4IBAQBBkqGbPSNdJ/WAd0GLXQD42+ywBi05ZxHpyqN4yXG/Bvn/wgyO\r\n4OlHrZ0gGkJSR4WXXu2jGwtNH565UQvYBxrgO5uwnwhxB3Nf5Q1VbC1YUaRFgE9c\r\ndeQG9JRpVBBpyB89n8JvGAQA0p6VAffjvKgweMXjVltXl5R2KnxfkGjqb85jcWj4\r\n90e/5BYUXNyWJwNe1tv/CcIzU2CJxsgEGq2B6gnaxfst7wJ3xh4IK/AYfS7VsvcJ\r\nQwyQb6E37L8SvQGpokv37iKZUxNF2HdBD0Wa7bOSXchk3UuCq3fjJT+8K7VBovN6\r\nX0+e4/OLii04PenZ9L8xDY/EP44BbDuovKDk\r\n-----END CERTIFICATE-----\r\n",
+                                        "exp": [
+                                            "20190524"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Signature": [
+            {
+                "xmlns": [
+                    "http://www.w3.org/2000/09/xmldsig#"
+                ],
+                "SignedInfo": [
+                    {
+                        "CanonicalizationMethod": [
+                            {
+                                "Algorithm": [
+                                    "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                                ]
+                            }
+                        ],
+                        "SignatureMethod": [
+                            {
+                                "Algorithm": [
+                                    "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                                ]
+                            }
+                        ],
+                        "Reference": [
+                            {
+                                "URI": [
+                                    ""
+                                ],
+                                "Transforms": [
+                                    {
+                                        "Transform": [
+                                            {
+                                                "Algorithm": [
+                                                    "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DigestMethod": [
+                                    {
+                                        "Algorithm": [
+                                            "http://www.w3.org/2001/04/xmlenc#sha256"
+                                        ]
+                                    }
+                                ],
+                                "DigestValue": [
+                                    "BJiwgEYgxy5iuY1rXJasPLIqL3qgaAhOL6uKjWx0bxc="
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "SignatureValue": [
+                    "U6SBbNyPQYcPM06ru0BW4dJizTdzylR6YU/VLDz7alPCjVaj9dMXj96r20/pCNYMXoDapws3bcXf\r\nOHAgdB3uBv6Qu9OPLZKFkk7bwXJn/YO9aS1Axx8Ev94DlU7NRQ1tOlD7J9PqLeXwWc3ueSZYyXWw\r\n2y3FaRaMuCPLCezN+MN+ShOKkfP/k+6EnroezceMXcAeAtSqqoMZbcaa+71xrJd/QG0O1Osm8mpJ\r\nzSRJGRvY3xZ4GsIkTOygmPXr6LF7YDaIZiw+z6m1Upv+b3DwQ1Q3vNPBXfwUIBC7Lc8s0kBMTXRk\r\n2Ii57nwTNRxlQrkj0KWOnTzc2TXODFmxlz/8yw=="
+                ],
+                "KeyInfo": [
+                    {
+                        "X509Data": [
+                            {
+                                "X509SubjectName": [
+                                    "CN=Kapil Handa,OU=Unknown,O=TRAI,L=New Delhi,ST=New Delhi,C=IN"
+                                ],
+                                "X509Certificate": [
+                                    "MIIDdzCCAl+gAwIBAgIEU/DQmjANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJJTjESMBAGA1UE\r\nCBMJTmV3IERlbGhpMRIwEAYDVQQHEwlOZXcgRGVsaGkxDTALBgNVBAoTBFRSQUkxEDAOBgNVBAsT\r\nB1Vua25vd24xFDASBgNVBAMTC0thcGlsIEhhbmRhMB4XDTE3MTAwNzEwMTExN1oXDTE4MDEwNTEw\r\nMTExN1owbDELMAkGA1UEBhMCSU4xEjAQBgNVBAgTCU5ldyBEZWxoaTESMBAGA1UEBxMJTmV3IERl\r\nbGhpMQ0wCwYDVQQKEwRUUkFJMRAwDgYDVQQLEwdVbmtub3duMRQwEgYDVQQDEwtLYXBpbCBIYW5k\r\nYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJWgGPg+2gVUccnwbD8jY8UorjjR61U6\r\nqveJzJphwupzJcR9nXvVM+BjXjx7p2m1Uq46GwQpyJrHVK/r1dMjT8/bmFEBzhnoXvhxfJlVuCl6\r\n1x2capMwuxjPkI8ck6mnGCHGBdw0O2CIDTSaYnHa+t9vIicUVqcdwbTN7Z4Bn1B2+Vfiz2kTuLs0\r\ntnqm7CtQRHLh3z31FLOsfL9Of6S7bWimqJXHCK6G4bxM1VNNTpc212/2I4Qi/DscS7PBJumKsULe\r\nXmuCe24cOY9/30i4+XvDpCS/CsbScnDywDXyx74fzw8OPZ3JDFdi5eVQ3SGuu8HADBYetJynBjiQ\r\nXhshzS0CAwEAAaMhMB8wHQYDVR0OBBYEFA2zZZ/S3evmc3fIs4Xhp1YvhofOMA0GCSqGSIb3DQEB\r\nCwUAA4IBAQBzn5t4jMrsUpBvpqsyBhVp3N7FoGvKqas8dkn04Eqz06Rmrd95N8b8Xs+tpEIh+1Om\r\nqrsa95a05FwYAQESbsefleq9GVF4Pw6NopDJp539z+BCeFLoJNLCWNPvmN6kAPeXiTHesryeU4mG\r\neyK49yhGZPpvaQgarwzHLKtjBp3TBJw0QvUx54C6sopJq7RM2bYeSFzUIo3sSNSbaq7vcQ8mzJZj\r\nCC3Tp7Y1bTOibdhwvl4+lu+eL63GPcJUv3eVe13bw4fMO5D/CSRDg62NkoXUsa8BxL+J5XoHJ0M6\r\nKJlrHdNIKl8T1d076GhIrQR0yQz0NcZFwsuTPc6VplnBM3OR"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
