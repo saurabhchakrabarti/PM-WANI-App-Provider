@@ -34,6 +34,6 @@ const validator = [
 ];
 
 export {
-  validator as removeMemberValidator
+  validator as createUserValidator
 };
 
