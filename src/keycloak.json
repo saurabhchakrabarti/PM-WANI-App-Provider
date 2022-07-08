@@ -1,0 +1,13 @@
+{
+  "realm": "PM-Wani",
+  "auth-server-url": "http://localhost/auth/",
+  "ssl-required": "external",
+  "resource": "pm-wani-app-provider",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "V8rKnud0tquVvNEM69uBwY09ssbJFdql"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
