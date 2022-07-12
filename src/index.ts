@@ -39,6 +39,61 @@ const start = async () => {
 
   }
 
+  if (!process.env.TYPEORM_CONNECTION) {
+    throw new Error("TYPEORM_CONNECTION must be defined");
+
+  }
+
+  if (!process.env.SESSION_SECRET) {
+    throw new Error("SESSION_SECRET must be defined");
+
+  }
+
+  if (!process.env.CENTRAL_REGISTRY_PROVIDER_URL) {
+    throw new Error("CENTRAL_REGISTRY_PROVIDER_URL must be defined");
+
+  }
+
+  if (!process.env.CENTRAL_REGISTRY_AP_URL) {
+    throw new Error("CENTRAL_REGISTRY_AP_URL must be defined");
+
+  }
+
+  if (!process.env.APP_PROVIDER_PRIVATE_KEY) {
+    throw new Error("APP_PROVIDER_PRIVATE_KEY must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_CLIENT_ID) {
+    throw new Error("KEYCLOAK_CLIENT_ID must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_CLIENT_SECRET) {
+    throw new Error("KEYCLOAK_CLIENT_SECRET must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_BASE_URL) {
+    throw new Error("KEYCLOAK_BASE_URL must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_REALM_NAME) {
+    throw new Error("KEYCLOAK_REALM_NAME must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_ADMIN_LIFESPAN) {
+    throw new Error("KEYCLOAK_ADMIN_LIFESPAN must be defined");
+
+  }
+
+  if (!process.env.KEYCLOAK_AUTH_TOKEN_URL) {
+    throw new Error("KEYCLOAK_AUTH_TOKEN_URL must be defined");
+
+  }
+
   await intializeDB();
 
 
