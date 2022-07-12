@@ -8,18 +8,13 @@ const dataSource = new DataSource({
   username: process.env.TYPEORM_USERNAME!,
   password: process.env.TYPEORM_PASSWORD!,
   database: process.env.TYPEORM_DATABASE!,
-  entities: ["src/entities/*.ts"],
+  entities: [__dirname + '/../entities/*.{js,ts}'],
   logging: process.env.TYPEORM_LOGGING! === 'true',
   synchronize: process.env.TYPEORM_SYNCHRONIZE! === 'true',
 })
 
 async function intializeDB(): Promise<void> {
-  try {
-    await dataSource.initialize();
-
-  } catch (error) {
-    logger.error(error);
-  }
+  await dataSource.initialize();
   logger.info('Database successfully initialized');
 }
 
