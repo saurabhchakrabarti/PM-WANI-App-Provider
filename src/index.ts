@@ -4,6 +4,7 @@ dotenv.config()
 
 import { app } from './app';
 import { intializeDB } from './db/data-source';
+import { kcAdminClient } from './keycloak/keycloak-admin-client';
 import { logger } from './services/logger';
 
 const start = async () => {
@@ -38,14 +39,23 @@ const start = async () => {
 
   }
 
-  try {
-    await intializeDB();
+  await intializeDB();
 
-    logger.info("connected to database")
-  } catch (e) {
-    logger.error(e);
-  }
 
+  // ---- Keycloak admin client setup -----
+
+
+  const credentials = {
+    grantType: 'client_credentials',
+    clientId: process.env.KEYCLOAK_CLIENT_ID!,
+    clientSecret: process.env.KEYCLOAK_CLIENT_SECRET!,
+  };
+
+  //@ts-ignore
+  await kcAdminClient.auth(credentials);
+
+  //@ts-ignore
+  setInterval(() => kcAdminClient.auth(credentials), parseInt(process.env.KEYCLOAK_ADMIN_LIFESPAN) * 1000); // seconds
 
   app.listen(process.env.PORT || 8080, () => {
     logger.info(`NODE_ENV ${process.env.NODE_ENV} services running on port ${process.env.PORT}`);
