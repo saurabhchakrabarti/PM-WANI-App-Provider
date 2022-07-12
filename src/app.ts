@@ -8,11 +8,7 @@ import morgan from 'morgan';
 
 import Keycloak from "keycloak-connect";
 import { errorHandler } from './middleware/error-handler';
-import { centralRegistryRouter } from './router/central-registry';
-import { appRoutesPrefix, centralRegistryRoutePrefix, tokenRoutePrefix, userRoutePrefix } from './router/routes';
-import { tokenRouter } from './router/token';
-import { userRouter } from './router/users';
-// import BaseRouter from './routes';
+
 const app = express();
 app.use(helmet());
 app.use(express.json());
@@ -38,6 +34,12 @@ app.use(keycloak.middleware({
   admin: '/'
 }));
 
+import { centralRegistryRouter } from './router/central-registry';
+import { appRoutesPrefix, centralRegistryRoutePrefix, tokenRoutePrefix, userRoutePrefix } from './router/routes';
+import { tokenRouter } from './router/token';
+import { userRouter } from './router/users';
+
+
 // Add APIs
 app.use(appRoutesPrefix + centralRegistryRoutePrefix, centralRegistryRouter)
 app.use(appRoutesPrefix + userRoutePrefix, userRouter)
@@ -46,5 +48,5 @@ app.use(appRoutesPrefix + tokenRoutePrefix, tokenRouter)
 
 
 app.use(errorHandler);
-export { app };
+export { app, keycloak };
 
