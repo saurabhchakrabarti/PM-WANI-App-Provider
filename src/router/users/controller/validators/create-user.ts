@@ -27,10 +27,12 @@ const validator = [
     .withMessage(
       'provide a password with 7 letters that does not contain the word password'
     ),
-  check('preferredPayment')
-    .optional()
-    .withMessage('provide timezone string'),
-
+  check('username')
+    .trim()
+    .notEmpty(),
+  check('password')
+    .trim()
+    .notEmpty()
 ];
 
 export {

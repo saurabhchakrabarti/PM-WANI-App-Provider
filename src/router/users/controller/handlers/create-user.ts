@@ -1,23 +1,39 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
+import { kcAdminClient } from '../../../../keycloak/keycloak-admin-client';
 import { User } from '../../../../models/User';
 
 const handler = async (req: Request, res: Response) => {
 
   const { firstName, lastName, username, email, password, phone, preferredPayment } = req.body;
 
-  // const existingUser = req.currentUser;
+  // TODO check if user with given credentials exists and then create the user
+  await kcAdminClient.users.create({
+    username,
+    email,
+    firstName,
+    lastName,
+    credentials: [{
+      type: "password",
+      value: password,
+      temporary: false
+    }],
+    attributes: {
+      phone,
+      preferredPayment
+    },
+    // enabled required to be true in order to send actions email
+    emailVerified: true,
+    enabled: true,
+    realmRoles: ['app-user']
+  });
 
-  // if (!existingUser) {
-  //   throw new NotAuthorizedError();
-  // }
 
-  // TODO parse username and password from existing user
   const userId = await User.createUser({
     firstName, lastName, username, email, password, phone, preferredPayment
   })
 
-  res.status(StatusCodes.CREATED).send(userId);
+  return res.status(StatusCodes.CREATED).send(userId);
 
 };
 
