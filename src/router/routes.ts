@@ -17,5 +17,6 @@ export enum tokenRoutes {
 }
 
 export enum userRoutes {
-  CreateUser = '/'
+  CreateUser = '/',
+  LoginUser = '/login'
 }
