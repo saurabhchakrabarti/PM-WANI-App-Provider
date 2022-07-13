@@ -28,14 +28,13 @@ const handler = async (req: Request, res: Response) => {
 
   }
 
-  const encToken = encrypt(JSON.stringify(token), appPubKey)
+  const base64encToken = encrypt(JSON.stringify(token), appPubKey)
 
-  if (!encToken) {
+  if (!base64encToken) {
     throw new BadRequestError('enc token not formed')
   }
-  const base64Token = Buffer.from(encToken).toString('base64')
 
-  const waniAppToken = appProviderId + "|" + base64Token
+  const waniAppToken = appProviderId + "|" + base64encToken
 
   // TODO find url from wani providers list
 
