@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 
-function encrypt(toEncrypt: any, key?: string | Buffer, relativeOrAbsolutePathToPublicKey?: string) {
+function encrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbsolutePathToPublicKey?: string) {
   if (!key && !relativeOrAbsolutePathToPublicKey) {
     return null
   }

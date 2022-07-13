@@ -28,7 +28,7 @@ const handler = async (req: Request, res: Response) => {
 
   }
 
-  const encToken = encrypt(token, appPubKey)
+  const encToken = encrypt(JSON.stringify(token), appPubKey)
 
   if (!encToken) {
     throw new BadRequestError('enc token not formed')
