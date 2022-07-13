@@ -27,7 +27,6 @@ const handler = async (req: Request, res: Response) => {
 
 };
 
-//assa
 export {
   handler as getWaniProvidersHandler,
 };

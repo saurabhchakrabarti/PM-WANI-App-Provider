@@ -6,7 +6,7 @@ import xml2js from "xml2js";
 import { NotFoundError } from '../../../../errors/not-found-error';
 
 const handler = async (req: Request, res: Response) => {
-
+  // TODO this should take the pdoa id and send corresponding aplist
   const { data } = await axios.get(process.env.CENTRAL_REGISTRY_AP_URL!)
 
   if (!data) {
