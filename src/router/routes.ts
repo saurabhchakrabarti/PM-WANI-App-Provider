@@ -3,7 +3,7 @@ export const appRoutesPrefix = '/api'
 export const authRoutePrefix = '/auth'
 export const userRoutePrefix = '/user'
 export const centralRegistryRoutePrefix = '/centralregistry'
-export const tokenRoutePrefix = '/tokenize'
+export const tokenRoutePrefix = '/token'
 export const sessionRoutePrefix = '/logs'
 
 
@@ -13,7 +13,10 @@ export enum centralRegistryRoutes {
 }
 
 export enum tokenRoutes {
-  VerifyWaniPdoa = '/verifywanipdoatoken'
+  // VerifyWaniPdoa = '/verifywanipdoatoken'
+  VerifyWaniPdoa = '/auth',
+  passWaniapptoken = '/pass-waniAppToken'
+
 }
 
 export enum userRoutes {
