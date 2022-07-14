@@ -1,4 +1,4 @@
-export const appRoutesPrefix = '/api'
+export const appRoutesPrefix = '/api/v1'
 
 export const authRoutePrefix = '/auth'
 export const userRoutePrefix = '/user'
