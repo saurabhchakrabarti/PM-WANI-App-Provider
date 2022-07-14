@@ -24,7 +24,6 @@ const handler = async (req: Request, res: Response) => {
     "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
     "appVer": "1.0",
     "totp": "1234",
-    "custData": {}
 
   }
 
