@@ -21,7 +21,6 @@ function encrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbsolutePat
   const encrypted = crypto.publicEncrypt({
     key: publicKey,
     padding: crypto.constants.RSA_PKCS1_PADDING,
-    oaepHash: "sha256",
   }, buffer,)
   return encrypted.toString('base64')
 }
@@ -47,8 +46,6 @@ function decrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsolutePat
     {
       key: privateKey.toString(),
       padding: crypto.constants.RSA_PKCS1_PADDING,
-      passphrase: '',
-      oaepHash: "sha256",
     },
     buffer,
   )
