@@ -8,7 +8,7 @@ import { verifyWaniPdoaValidator } from './controller/validator/verify-wani-pdoa
 
 const router = express.Router();
 
-router.get(tokenRoutes.VerifyWaniPdoa, keycloak.protect(), verifyWaniPdoaValidator, validateRequest, verifyWaniPdoaHandler)
+router.get(tokenRoutes.VerifyWaniPdoa, verifyWaniPdoaValidator, validateRequest, verifyWaniPdoaHandler)
 router.get(tokenRoutes.passWaniapptoken, keycloak.protect(), passWaniAppTokenHandler)
 
 export {
