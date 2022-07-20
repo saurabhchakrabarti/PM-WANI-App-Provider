@@ -1,11 +1,12 @@
 import Filter from 'bad-words';
-import { param } from "express-validator";
+import { query } from "express-validator";
 const filter = new Filter();
 
 const validator = [
-  param('wanipdoatoken')
+  query('wanipdoatoken')
     .trim()
     .notEmpty()
+    .contains('|')
     .withMessage('provide a valid wanipdoatoken'),
 ];
 
