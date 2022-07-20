@@ -42,6 +42,8 @@ const handler = async (req: Request, res: Response) => {
     throw new BadRequestError("Key Expired")
   }
 
+  logger.info(key);
+
   const pubKey = getPubKeyFromCert(key);
 
   let encWaniAppToken = '';
