@@ -8,7 +8,7 @@ import { decrypt, getPubKeyFromCert } from '../../../../utils/rsa-crypto';
 
 const handler = async (req: Request, res: Response) => {
 
-  const wanipdoatoken = req.params.wanipdoatoken! as string;
+  const wanipdoatoken = req.query.wanipdoatoken! as string;
 
   //! assumption key-exp not present
   const [pdoaId, date, token] = wanipdoatoken.split("|");
