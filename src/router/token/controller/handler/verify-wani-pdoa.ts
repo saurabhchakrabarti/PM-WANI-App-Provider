@@ -17,7 +17,7 @@ const handler = async (req: Request, res: Response) => {
     throw new BadRequestError("Invalid Token")
   }
 
-  const waniProviders = JSON.parse(fs.readFileSync(__dirname + '/../../../../utils/waniProviders', 'utf8')) as WaniProviders;
+  const waniProviders = JSON.parse(fs.readFileSync(__dirname + '/../../../../../utils/waniProviders.json', 'utf8')) as WaniProviders;
 
   // TODO use central registry model
   const pdoa = waniProviders["WaniRegistry"]["PDOAs"].find((pdoa) => {
