@@ -4,6 +4,7 @@ import { StatusCodes } from 'http-status-codes';
 import { BadRequestError } from "../../../../errors/bad-request-error";
 import { isWaniAppToken } from '../../../../interfaces/waniAppToken';
 import { WaniProviders } from "../../../../interfaces/waniProviders";
+import { logger } from '../../../../services/logger';
 import { decrypt, getPubKeyFromCert } from '../../../../utils/rsa-crypto';
 
 const handler = async (req: Request, res: Response) => {
@@ -44,6 +45,8 @@ const handler = async (req: Request, res: Response) => {
   const pubKey = getPubKeyFromCert(key);
 
   let encWaniAppToken = '';
+  logger.info("public key \n", pubKey);
+
 
   while (true) {
     let currIdx = 0;
@@ -55,9 +58,13 @@ const handler = async (req: Request, res: Response) => {
     }
   }
 
+  logger.info("enc Wani App Token \n", encWaniAppToken);
+
   if (!encWaniAppToken) {
     throw new BadRequestError("Token Corrupted")
   }
+
+  logger.info("app provider private key] \n", process.env.APP_PROVIDER_PRIVATE_KEY!);
 
   const waniAppToken = decrypt(encWaniAppToken, process.env.APP_PROVIDER_PRIVATE_KEY!)
 
