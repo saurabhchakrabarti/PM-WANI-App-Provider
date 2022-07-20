@@ -11,7 +11,7 @@ const handler = async (req: Request, res: Response) => {
   const wanipdoatoken = req.params.wanipdoatoken! as string;
 
   //! assumption key-exp not present
-  const [pdoaId, token] = wanipdoatoken.split("|");
+  const [pdoaId, date, token] = wanipdoatoken.split("|");
 
   if (!pdoaId || !token) {
     throw new BadRequestError("Invalid Token")
