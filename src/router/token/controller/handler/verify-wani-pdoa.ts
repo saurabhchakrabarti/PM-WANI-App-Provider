@@ -43,7 +43,17 @@ const handler = async (req: Request, res: Response) => {
 
   const pubKey = getPubKeyFromCert(key);
 
-  const encWaniAppToken = decrypt(token, pubKey)
+  let encWaniAppToken = '';
+
+  while (true) {
+    let currIdx = 0;
+    encWaniAppToken = encWaniAppToken + decrypt(token.substring(currIdx, currIdx + 256), pubKey)
+    currIdx = currIdx + 256;
+
+    if (currIdx >= encWaniAppToken.length) {
+      break;
+    }
+  }
 
   if (!encWaniAppToken) {
     throw new BadRequestError("Token Corrupted")
