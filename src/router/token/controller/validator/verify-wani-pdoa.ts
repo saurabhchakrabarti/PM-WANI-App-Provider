@@ -6,7 +6,6 @@ const validator = [
   param('wanipdoatoken')
     .trim()
     .notEmpty()
-    .contains('|')
     .withMessage('provide a valid wanipdoatoken'),
 ];
 
