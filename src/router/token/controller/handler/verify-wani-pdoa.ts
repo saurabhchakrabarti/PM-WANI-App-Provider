@@ -1,18 +1,18 @@
+import crypto from "crypto";
 import { Request, Response } from 'express';
 import fs from "fs";
 import { StatusCodes } from 'http-status-codes';
 import { BadRequestError } from "../../../../errors/bad-request-error";
-import { isWaniAppToken } from '../../../../interfaces/waniAppToken';
+import { isWaniAppToken, WaniAppToken } from '../../../../interfaces/waniAppToken';
 import { WaniProviders } from "../../../../interfaces/waniProviders";
-import { logger } from '../../../../services/logger';
-import { decrypt, getPubKeyFromCert, publicDecrypt } from '../../../../utils/rsa-crypto';
-
+import { User } from '../../../../models/User';
+import { decrypt, getPubKeyFromCert, privateEncrypt, publicDecrypt } from '../../../../utils/rsa-crypto';
 const handler = async (req: Request, res: Response) => {
 
   const wanipdoatoken = req.query.wanipdoatoken! as string;
 
   //! assumption key-exp not present
-  const [pdoaId, date, token] = wanipdoatoken.split("|");
+  const [pdoaId, keyExp, token] = wanipdoatoken.split("|");
 
   if (!pdoaId || !token) {
     throw new BadRequestError("Invalid Token")
@@ -31,7 +31,9 @@ const handler = async (req: Request, res: Response) => {
     throw new BadRequestError("PDOA not found")
   }
 
-  const { exp, _: key } = pdoa.PDOA[0].Keys[0].Key[0]
+  const { exp, _: key } = pdoa.PDOA[0].Keys[0].Key.filter(key => {
+    return key.exp[0] === keyExp
+  })[0]
 
   if (!key) {
     throw new BadRequestError("Invalid Token")
@@ -45,32 +47,72 @@ const handler = async (req: Request, res: Response) => {
   const pubKey = getPubKeyFromCert(key);
 
   let encWaniAppToken = '';
+  const buffer = Buffer.from(decodeURIComponent(token), 'base64')
+
+  let currIdx = 0;
 
   while (true) {
-    let currIdx = 0;
-    encWaniAppToken = encWaniAppToken + publicDecrypt(token.substring(currIdx, currIdx + 256), pubKey)
+    encWaniAppToken = encWaniAppToken + publicDecrypt(buffer.subarray(currIdx, currIdx + 256), pubKey)
     currIdx = currIdx + 256;
 
-    if (currIdx >= encWaniAppToken.length) {
+    if (currIdx >= Buffer.byteLength(buffer)) {
       break;
     }
   }
 
-  logger.info("enc Wani App Token \n", encWaniAppToken);
+  encWaniAppToken = encWaniAppToken.replace(/ /g, "+")
 
   if (!encWaniAppToken) {
     throw new BadRequestError("Token Corrupted")
   }
 
-  logger.info("app provider private key] \n", process.env.APP_PROVIDER_PRIVATE_KEY!);
+  const [appProviderId, encToken] = encWaniAppToken.split("|");
+  const waniAppToken = decrypt(encToken, process.env.APP_PROVIDER_PRIVATE_KEY!)
 
-  const waniAppToken = decrypt(encWaniAppToken, process.env.APP_PROVIDER_PRIVATE_KEY!)
+  if (!waniAppToken) {
+    throw new BadRequestError("App Token Corrupted")
+  }
 
-  if (!isWaniAppToken(waniAppToken)) {
+  const appTokenObject = JSON.parse(waniAppToken) as WaniAppToken
+
+  // verify waniAppToken
+  if (!isWaniAppToken(appTokenObject)) {
     throw new BadRequestError('App Token Invalid')
   }
-  // verify waniAppToken
-  res.status(StatusCodes.OK).send(waniAppToken);
+
+  const appProvider = waniProviders["WaniRegistry"]["AppProviders"][0].AppProvider.find((ap) => {
+    return ap.id.some((item) => {
+      return item.includes(appProviderId);
+    });
+  });
+
+
+  const user = await User.getUserByUsername(appTokenObject.username)
+
+  const date = new Date()
+
+  const timestamp = "" + date.getFullYear() + ("0" + date.getMonth()).slice(-2) + ("0" + date.getDate()).slice(-2) + date.getHours() + date.getMinutes() + date.getSeconds()
+
+  // HASH input according to specification
+  const hashInput = "" + timestamp + appTokenObject.username + appTokenObject.password + appTokenObject.apMacId + user?.preferredPayment + appTokenObject.deviceMacId
+  const hash = crypto.createHash('sha256').update(hashInput).digest('base64');
+  const signature = privateEncrypt(hash, process.env.APP_PROVIDER_PRIVATE_KEY!)
+
+  const response = {
+    "ver": appTokenObject.ver,
+    "timestamp": appTokenObject.timestamp,
+    "username": appTokenObject.username,
+    "password": appTokenObject.password,
+    "apMacId": appTokenObject.apMacId,
+    "deviceMacId": appTokenObject.deviceMacId,
+    "payment-address": user?.preferredPayment,
+    "app-provider-id": appProviderId,
+    "app-provider-name": appProvider?.name,
+    "signature": signature,
+    "key-exp": keyExp
+  }
+
+  res.status(StatusCodes.OK).send(response);
 
   // TODO save failed and successful attempt of user to Session
 
