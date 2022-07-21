@@ -29,7 +29,7 @@ function isWaniAppToken(object: any): boolean {
     && typeof appId === 'string'
     && typeof appVer === 'string'
     && typeof totp === 'string'
-    && typeof custData === 'object'
+    && (typeof custData === 'object' || typeof custData === 'undefined')
 
 }
 

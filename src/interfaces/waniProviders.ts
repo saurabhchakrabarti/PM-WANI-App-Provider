@@ -9,7 +9,7 @@ interface WaniProviders {
       "PDOA": PDOA[]
     }[],
     "AppProviders": {
-      "AppProviders": AppProvider
+      "AppProvider": AppProvider[]
     }[],
     "Signature": Signature[]
   }
