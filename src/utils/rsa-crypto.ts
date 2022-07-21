@@ -76,7 +76,7 @@ function decrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsolutePat
 }
 
 
-function publicDecrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsolutePathToPrivateKey?: string) {
+function publicDecrypt(toDecrypt: Buffer, key?: string | Buffer, relativeOrAbsolutePathToPrivateKey?: string) {
   if (!key && !relativeOrAbsolutePathToPrivateKey) {
     return null
   }
@@ -91,14 +91,12 @@ function publicDecrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsol
     privateKey = key
   }
 
-
-  const buffer = Buffer.from(toDecrypt, 'base64')
   const decrypted = crypto.publicDecrypt(
     {
       key: privateKey.toString(),
       padding: crypto.constants.RSA_PKCS1_PADDING,
     },
-    buffer,
+    toDecrypt,
   )
   return decrypted.toString('utf8')
 }
