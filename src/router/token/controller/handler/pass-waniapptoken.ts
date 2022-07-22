@@ -46,13 +46,14 @@ const handler = async (req: Request, res: Response) => {
     }
   }
 
+  // PKCS1 padding so 256 - 11 = 245 buffer can be encrypted
   const buffer = Buffer.from(JSON.stringify(token), 'utf8')
   let base64encToken = ""
 
   let currIdx = 0;
   while (true) {
-    base64encToken = base64encToken + encrypt(buffer.subarray(currIdx, currIdx + 256), appPubKey)
-    currIdx = currIdx + 256;
+    base64encToken = base64encToken + encrypt(buffer.subarray(currIdx, currIdx + 245), appPubKey)
+    currIdx = currIdx + 245;
 
     if (currIdx >= Buffer.byteLength(buffer)) {
       break;
