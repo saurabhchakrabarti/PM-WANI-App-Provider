@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 
-function encrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbsolutePathToPublicKey?: string) {
+function encrypt(toEncrypt: Buffer, key?: string | Buffer, relativeOrAbsolutePathToPublicKey?: string) {
   if (!key && !relativeOrAbsolutePathToPublicKey) {
     return null
   }
@@ -17,11 +17,11 @@ function encrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbsolutePat
   if (key) {
     publicKey = key
   }
-  const buffer = Buffer.from(toEncrypt, 'utf8')
+
   const encrypted = crypto.publicEncrypt({
     key: publicKey,
     padding: crypto.constants.RSA_PKCS1_PADDING,
-  }, buffer,)
+  }, toEncrypt)
   return encrypted.toString('base64')
 }
 
@@ -48,7 +48,7 @@ function privateEncrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbso
   return encrypted.toString('base64')
 }
 
-function decrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsolutePathToPrivateKey?: string) {
+function decrypt(toDecrypt: Buffer, key?: string | Buffer, relativeOrAbsolutePathToPrivateKey?: string) {
   if (!key && !relativeOrAbsolutePathToPrivateKey) {
     return null
   }
@@ -64,13 +64,12 @@ function decrypt(toDecrypt: string, key?: string | Buffer, relativeOrAbsolutePat
   }
 
 
-  const buffer = Buffer.from(toDecrypt, 'base64')
   const decrypted = crypto.privateDecrypt(
     {
       key: privateKey.toString(),
       padding: crypto.constants.RSA_PKCS1_PADDING,
     },
-    buffer,
+    toDecrypt,
   )
   return decrypted.toString('utf8')
 }
