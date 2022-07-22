@@ -105,9 +105,9 @@ const handler = async (req: Request, res: Response) => {
     "password": appTokenObject.password,
     "apMacId": appTokenObject.apMacId,
     "deviceMacId": appTokenObject.deviceMacId,
-    "payment-address": user?.preferredPayment,
+    "payment-address": user?.preferredPayment || "",
     "app-provider-id": appProviderId,
-    "app-provider-name": appProvider?.name,
+    "app-provider-name": appProvider?.name[0],
     "signature": signature,
     "key-exp": keyExp
   }
