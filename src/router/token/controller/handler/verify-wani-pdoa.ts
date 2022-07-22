@@ -67,7 +67,20 @@ const handler = async (req: Request, res: Response) => {
   }
 
   const [appProviderId, encToken] = encWaniAppToken.split("|");
-  const waniAppToken = decrypt(encToken, process.env.APP_PROVIDER_PRIVATE_KEY!)
+  let waniAppToken = ""
+
+  currIdx = 0;
+  const encTokenBuffer = Buffer.from(encToken, 'base64')
+
+  while (true) {
+    waniAppToken = waniAppToken + decrypt(encTokenBuffer, process.env.APP_PROVIDER_PRIVATE_KEY!)
+    currIdx = currIdx + 256;
+
+    if (currIdx >= Buffer.byteLength(buffer)) {
+      break;
+    }
+  }
+
 
   if (!waniAppToken) {
     throw new BadRequestError("App Token Corrupted")
