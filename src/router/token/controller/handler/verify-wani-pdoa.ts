@@ -67,19 +67,12 @@ const handler = async (req: Request, res: Response) => {
   }
 
   const [appProviderId, encToken] = encWaniAppToken.split("|");
-  let waniAppToken = ""
 
   currIdx = 0;
   const encTokenBuffer = Buffer.from(encToken, 'base64')
 
-  while (true) {
-    waniAppToken = waniAppToken + decrypt(encTokenBuffer, process.env.APP_PROVIDER_PRIVATE_KEY!)
-    currIdx = currIdx + 256;
+  const waniAppToken = decrypt(encTokenBuffer, process.env.APP_PROVIDER_PRIVATE_KEY!)
 
-    if (currIdx >= Buffer.byteLength(buffer)) {
-      break;
-    }
-  }
 
 
   if (!waniAppToken) {
