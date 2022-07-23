@@ -17,12 +17,24 @@ function encrypt(toEncrypt: Buffer, key?: string | Buffer, relativeOrAbsolutePat
   if (key) {
     publicKey = key
   }
+  let currIdx = 0;
+  let encryptedBuffers = [];
 
-  const encrypted = crypto.publicEncrypt({
-    key: publicKey,
-    padding: crypto.constants.RSA_PKCS1_PADDING,
-  }, toEncrypt)
-  return encrypted.toString('base64')
+  while (true) {
+    encryptedBuffers.push(crypto.publicEncrypt({
+      key: publicKey,
+      padding: crypto.constants.RSA_PKCS1_PADDING,
+    }, toEncrypt.subarray(currIdx, currIdx + 245)))
+
+    currIdx = currIdx + 245;
+
+    if (currIdx >= Buffer.byteLength(toEncrypt)) {
+      break;
+    }
+  }
+
+
+  return Buffer.concat(encryptedBuffers).toString('base64')
 }
 
 function privateEncrypt(toEncrypt: string, key?: string | Buffer, relativeOrAbsolutePathToPublicKey?: string) {
