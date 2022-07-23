@@ -75,15 +75,26 @@ function decrypt(toDecrypt: Buffer, key?: string | Buffer, relativeOrAbsolutePat
     privateKey = key
   }
 
+  let currIdx = 0;
+  let decrypted = ""
 
-  const decrypted = crypto.privateDecrypt(
-    {
-      key: privateKey.toString(),
-      padding: crypto.constants.RSA_PKCS1_PADDING,
-    },
-    toDecrypt,
-  )
-  return decrypted.toString('utf8')
+  while (true) {
+
+    decrypted = decrypted + crypto.privateDecrypt(
+      {
+        key: privateKey.toString(),
+        padding: crypto.constants.RSA_PKCS1_PADDING,
+      },
+      toDecrypt.subarray(currIdx, currIdx + 256),
+    ).toString('utf8')
+    currIdx = currIdx + 256;
+
+    if (currIdx >= Buffer.byteLength(toDecrypt)) {
+      break;
+    }
+  }
+
+  return decrypted
 }
 
 
