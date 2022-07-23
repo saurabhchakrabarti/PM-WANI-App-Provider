@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { BadRequestError } from "../../../../errors/bad-request-error";
@@ -42,23 +43,13 @@ const handler = async (req: Request, res: Response) => {
       "deviceMacId_1": "12:22:33:44:55:BA",
       "appId_1": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
       "appVer_1": "1.0",
-      "totp_1": "1234",
+      "totp_1": "1234"
     }
   }
 
   // PKCS1 padding so 256 - 11 = 245 buffer can be encrypted
   const buffer = Buffer.from(JSON.stringify(token), 'utf8')
-  let base64encToken = ""
-
-  let currIdx = 0;
-  while (true) {
-    base64encToken = base64encToken + encrypt(buffer.subarray(currIdx, currIdx + 245), appPubKey)
-    currIdx = currIdx + 245;
-
-    if (currIdx >= Buffer.byteLength(buffer)) {
-      break;
-    }
-  }
+  let base64encToken = encrypt(buffer, appPubKey)
 
 
   if (!base64encToken) {
@@ -70,10 +61,9 @@ const handler = async (req: Request, res: Response) => {
   console.log(waniAppToken);
   // TODO find url from wani providers list
 
-  // const response = await axios.get(`https://pdoab.cdot.in/v1/pdoa/0dd1cd73-eef6-4809-a8c0-925bd470b0b6/authreqpost?waniapptoken=${waniAppToken}`)
+  const response = await axios.get(`https://pdoab.cdot.in/v1/pdoa/0dd1cd73-eef6-4809-a8c0-925bd470b0b6/authreqpost?waniapptoken=${waniAppToken}`)
 
-
-  res.status(StatusCodes.OK).send();
+  res.status(StatusCodes.OK).send(response.data);
 
 };
 
