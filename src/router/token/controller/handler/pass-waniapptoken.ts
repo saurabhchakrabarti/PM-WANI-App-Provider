@@ -6,6 +6,7 @@ import { encrypt, getPubKeyFromCert } from '../../../../utils/rsa-crypto';
 
 const handler = async (req: Request, res: Response) => {
 
+  const cpUrl = req.query.cpUrl! as string;
 
   const pdoaId = 'f22e3f63-bda6-4633-bd3c-55c6cab696ba'
   const apMacId = 'f22e3f63-bda6-4633-bd3c-55c6cab696ba'
@@ -35,15 +36,6 @@ const handler = async (req: Request, res: Response) => {
       "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
       "appVer": "1.0",
       "totp": "1234",
-      "ver_1": "1.0",
-      "timestamp_1": "20220712000000",
-      "username_1": "test4@ispirt.com",
-      "password_1": "Test@1234",
-      "apMacId_1": "20:74:E2:40:14:B2",
-      "deviceMacId_1": "12:22:33:44:55:BA",
-      "appId_1": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
-      "appVer_1": "1.0",
-      "totp_1": "1234"
     }
   }
 
@@ -61,7 +53,7 @@ const handler = async (req: Request, res: Response) => {
   console.log(waniAppToken);
   // TODO find url from wani providers list
 
-  const response = await axios.get(`https://pdoab.cdot.in/v1/pdoa/0dd1cd73-eef6-4809-a8c0-925bd470b0b6/authreqpost?waniapptoken=${waniAppToken}`)
+  const response = await axios.get(`${cpUrl}?waniapptoken=${waniAppToken}`)
 
   res.status(StatusCodes.OK).send(response.data);
 
