@@ -30,7 +30,7 @@ const handler = async (req: Request, res: Response) => {
     "ver": "1.0",
     "timestamp": timestamp,
     "username": existingUser.username,
-    "password": existingUser.waniPassword,
+    "password": existingUser.wani_password,
     "apMacId": "20:74:E2:40:14:B2",
     "deviceMacId": "12:22:33:44:55:BA",
     "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",

@@ -16,8 +16,8 @@ interface UserPayload {
   id: string;
   email: string;
   username: string;
-  waniPassword: string;
-  preferredPayment?: string
+  wani_password: string;
+  preferred_payment?: string
 }
 
 // augment current user property to req
