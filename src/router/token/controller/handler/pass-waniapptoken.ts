@@ -2,9 +2,16 @@ import axios from 'axios';
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { BadRequestError } from "../../../../errors/bad-request-error";
+import { NotAuthorizedError } from '../../../../errors/not-authorized-error';
 import { encrypt, getPubKeyFromCert } from '../../../../utils/rsa-crypto';
 
 const handler = async (req: Request, res: Response) => {
+
+  const existingUser = req.currentUser;
+
+  if (!existingUser) {
+    throw new NotAuthorizedError();
+  }
 
   const cpUrl = req.query.cpUrl! as string;
 
@@ -15,27 +22,21 @@ const handler = async (req: Request, res: Response) => {
 
   const appProviderId = '4592ffcc-fe45-4bec-a41f-f2aa76a78dcd'
 
+  const date = new Date()
+
+  const timestamp = "" + date.getFullYear() + ("0" + date.getMonth()).slice(-2) + ("0" + date.getDate()).slice(-2) + date.getHours() + date.getMinutes() + date.getSeconds()
+
   const token = {
     "ver": "1.0",
-    "timestamp": "20220712000000",
-    "username": "test4@ispirt.com",
-    "password": "Test@1234",
+    "timestamp": timestamp,
+    "username": existingUser.username,
+    "password": existingUser.waniPassword,
     "apMacId": "20:74:E2:40:14:B2",
     "deviceMacId": "12:22:33:44:55:BA",
     "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
     "appVer": "1.0",
     "totp": "1234",
     "custData": {
-      "hey": "THIS IS A TEST",
-      "ver": "1.0",
-      "timestamp": "20220712000000",
-      "username": "test4@ispirt.com",
-      "password": "Test@1234",
-      "apMacId": "20:74:E2:40:14:B2",
-      "deviceMacId": "12:22:33:44:55:BA",
-      "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
-      "appVer": "1.0",
-      "totp": "1234",
     }
   }
 
