@@ -35,11 +35,14 @@ app.use(keycloak.middleware({
   admin: '/'
 }));
 
+//! the following imports should be after init of keycloak middleware otherwise app will not work
+import { currentUser } from './middleware/current-user';
 import { centralRegistryRouter } from './router/central-registry';
 import { appRoutesPrefix, centralRegistryRoutePrefix, tokenRoutePrefix, userRoutePrefix } from './router/routes';
 import { tokenRouter } from './router/token';
 import { userRouter } from './router/users';
 
+app.use(currentUser)
 
 // Add APIs
 app.use(appRoutesPrefix + centralRegistryRoutePrefix, centralRegistryRouter)
