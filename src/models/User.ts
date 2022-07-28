@@ -1,56 +1,65 @@
-import { InsertResult, UpdateResult } from "typeorm";
-import { dataSource } from "../db/data-source";
-import { UserEntity } from "../entities/User";
+import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import { kcAdminClient } from "../keycloak/keycloak-admin-client";
 
+interface customUserRepresentation extends UserRepresentation {
+  preferredPayment: string,
+  waniPassword: string,
+  phoneNumber: string,
+}
 
 export class User {
 
-  private static userRepository = dataSource.getRepository(UserEntity);
 
-  static async getUserByUsername(username: string): Promise<UserEntity | null> {
-    const user = await User.userRepository.findOneBy({
-      username
-    })
+  static async getUserById(id: string) {
+    const user = await kcAdminClient.users.findOne({
+      id
+    }) as customUserRepresentation
     return user;
   }
 
-  static async getUserByCredential(username: string, password: string): Promise<UserEntity | null> {
-    return await User.userRepository.findOneBy({
-      username,
-      password
-    })
-
+  static async getUserByUsername(username: string) {
+    const users = await kcAdminClient.users.find({
+      username
+    }) as customUserRepresentation[]
+    return users[0];
   }
 
   static async createUser({ firstName, lastName, username, email, password, phone, preferredPayment }:
-    { firstName: string, lastName: string, username: string, email?: string, password: string, phone: string, preferredPayment?: string }):
-    Promise<InsertResult> {
-    return await User.userRepository.insert({
+    { firstName: string, lastName: string, username: string, email?: string, password: string, phone: string, preferredPayment?: string }) {
+    return await kcAdminClient.users.create({
       username,
-      password,
+      email,
       firstName,
       lastName,
-      email,
-      phone,
-      preferredPayment
-    })
+      credentials: [{
+        type: "password",
+        value: password,
+        temporary: false
+      }],
+      attributes: {
+        phone,
+        preferredPayment
+      },
+      // enabled required to be true in order to send actions email
+      emailVerified: true,
+      enabled: true,
+      realmRoles: ['app-user']
+    });
+
+
   }
 
-  static async createBulkUsers(usersArray: { firstName: string, lastName: string, username: string, email: string, password: string, phone: string, preferredPayment: string }[]):
-    Promise<UserEntity[]> {
-    const userEntities = User.userRepository.create(usersArray);
-    await User.userRepository.insert(userEntities);
-    return userEntities;
-
+  // TODO
+  static async createBulkUsers(usersArray: { firstName: string, lastName: string, username: string, email: string, password: string, phone: string, preferredPayment: string }[]) {
   }
 
   static async updateUser({ id, ...updates }:
-    { id: number, firstName?: string, lastName?: string, username?: string, email?: string, phone?: string, preferredPayment?: string }):
-    Promise<UpdateResult> {
-    return await User.userRepository.update({
-      id
+    { id: string, firstName?: string, lastName?: string, username?: string, email?: string, phone?: string, preferredPayment?: string }) {
+
+    await kcAdminClient.users.update({
+      id,
     }, {
       ...updates
-    })
+    });
   }
 }
