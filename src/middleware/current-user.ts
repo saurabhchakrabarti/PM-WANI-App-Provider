@@ -1,6 +1,4 @@
 import { NextFunction, Request, Response } from "express";
-import { UserEntity } from "../entities/User";
-import { User } from "../models/User";
 
 import { logger } from "../services/logger";
 
@@ -17,14 +15,16 @@ declare module 'express-session' {
 interface UserPayload {
   id: string;
   email: string;
-  deviceId: string;
+  username: string;
+  waniPassword: string;
+  preferredPayment?: string
 }
 
 // augment current user property to req
 declare global {
   namespace Express {
     interface Request {
-      currentUser?: UserEntity
+      currentUser?: UserPayload
     }
   }
 }
@@ -47,9 +47,7 @@ export const currentUser = async (
     const token = parsedRaw.id_token ? parsedRaw.id_token : parsedRaw.access_token;
     const content = token.split('.')[1];
 
-    const details = JSON.parse(Buffer.from(content, 'base64').toString('utf-8'));
-
-    const user = await User.getUserByUsername(details.username) as UserEntity;
+    const user = JSON.parse(Buffer.from(content, 'base64').toString('utf-8'));
 
     req.currentUser = user;
 
