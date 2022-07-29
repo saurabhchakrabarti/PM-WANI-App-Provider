@@ -29,7 +29,7 @@ const handler = async (req: Request, res: Response) => {
   const token = {
     "ver": "1.0",
     "timestamp": timestamp,
-    "username": existingUser.username,
+    "username": existingUser.preferred_username,
     "password": existingUser.wani_password,
     "apMacId": "20:74:E2:40:14:B2",
     "deviceMacId": "12:22:33:44:55:BA",
