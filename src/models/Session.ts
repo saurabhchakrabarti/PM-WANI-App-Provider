@@ -1,7 +1,6 @@
 import { InsertResult } from "typeorm";
 import { dataSource } from "../db/data-source";
 import { SessionEntity, Status } from "../entities/Session";
-import { UserEntity } from "../entities/User";
 
 enum Rdate {
   TODAY = "Today",
@@ -41,15 +40,15 @@ export class Session {
     return session;
   }
 
-  static async createSession({ user, pdoaId, username, accessTimestamp, status }:
-    { user: UserEntity, pdoaId: string, username: string, accessTimestamp: Date, status: Status }):
+  static async createSession({ user_id, pdoaId, username, accessTimestamp, status }:
+    { user_id: string, pdoaId: string, username: string, accessTimestamp: Date, status: Status }):
     Promise<InsertResult> {
     return await Session.sessionRepository.insert({
       username,
       pdoaId,
       accessTimestamp,
       status,
-      user
+      user_id
     })
   }
 }
