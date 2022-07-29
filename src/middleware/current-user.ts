@@ -2,22 +2,19 @@ import { NextFunction, Request, Response } from "express";
 
 import { logger } from "../services/logger";
 
-import session from 'express-session';
-
-declare module 'express-session' {
-  export interface SessionData {
-    "keycloak-token": string;
-  }
-}
+import jwt from "jsonwebtoken";
 
 
 // a more precise definition of what we get back from payload to help augment currentUser to req
 interface UserPayload {
   id: string;
   email: string;
-  username: string;
+  name: string;
+  preferred_username: string;
   wani_password: string;
-  preferred_payment?: string
+  preferred_payment?: string;
+  phone_number: string;
+
 }
 
 // augment current user property to req
@@ -35,19 +32,19 @@ export const currentUser = async (
   res: Response,
   next: NextFunction
 ) => {
-  const keycloakToken = req.session['keycloak-token']
+  const keycloakToken = req.headers["authorization"]?.split(" ")[1]
 
   try {
 
     if (!keycloakToken) {
       return next();
     }
+    const content = jwt.decode(keycloakToken);
 
-    const parsedRaw = JSON.parse(keycloakToken);
-    const token = parsedRaw.id_token ? parsedRaw.id_token : parsedRaw.access_token;
-    const content = token.split('.')[1];
-
-    const user = JSON.parse(Buffer.from(content, 'base64').toString('utf-8'));
+    if (!content) {
+      return next();
+    }
+    const user = content as UserPayload
 
     req.currentUser = user;
 
