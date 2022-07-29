@@ -2,9 +2,11 @@ import crypto from "crypto";
 import { Request, Response } from 'express';
 import fs from "fs";
 import { StatusCodes } from 'http-status-codes';
+import { Status } from "../../../../entities/Session";
 import { BadRequestError } from "../../../../errors/bad-request-error";
 import { isWaniAppToken, WaniAppToken } from '../../../../interfaces/waniAppToken';
 import { WaniProviders } from "../../../../interfaces/waniProviders";
+import { Session } from "../../../../models/Session";
 import { User } from '../../../../models/User';
 import { decrypt, getPubKeyFromCert, privateEncrypt, publicDecrypt } from '../../../../utils/rsa-crypto';
 const handler = async (req: Request, res: Response) => {
@@ -95,6 +97,10 @@ const handler = async (req: Request, res: Response) => {
 
   const user = await User.getUserByUsername(appTokenObject.username)
 
+  if (!user) {
+    throw new BadRequestError('User does not exist')
+  }
+
   const date = new Date()
 
   const timestamp = "" + date.getFullYear() + ("0" + date.getMonth()).slice(-2) + ("0" + date.getDate()).slice(-2) + date.getHours() + date.getMinutes() + date.getSeconds()
@@ -120,8 +126,13 @@ const handler = async (req: Request, res: Response) => {
 
   res.status(StatusCodes.OK).send(response);
 
-  // TODO save failed and successful attempt of user to Session
-
+  await Session.createSession({
+    user_id: user.id!,
+    accessTimestamp: date,
+    pdoaId: pdoaId,
+    status: Status.VERIFIED,
+    username: user.username!
+  })
 };
 
 
