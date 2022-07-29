@@ -1,6 +1,5 @@
 import { MaxLength, validateOrReject } from "class-validator";
-import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
-import { UserEntity } from "./User";
+import { BaseEntity, BeforeInsert, BeforeUpdate, Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 enum Status {
   PENDING = "pending",
@@ -24,9 +23,8 @@ export class CaseEntity extends BaseEntity {
     default: Status.PENDING
   })
   status: Status;
-  @ManyToOne(() => UserEntity, (user) => user.cases)
-  user: UserEntity;
-
+  @Column()
+  user_id: string;
   @BeforeInsert()
   @BeforeUpdate()
   async validate() {
