@@ -2,8 +2,6 @@ import dotenv from 'dotenv';
 
 dotenv.config()
 
-import fs from 'fs';
-import https from 'https';
 import { app } from './app';
 import { intializeDB } from './db/data-source';
 import { kcAdminClient } from './keycloak/keycloak-admin-client';
@@ -120,14 +118,9 @@ const start = async () => {
   //@ts-ignore
   setInterval(() => kcAdminClient.auth(credentials), parseInt(process.env.KEYCLOAK_ADMIN_LIFESPAN) * 1000); // seconds
 
-  https
-    .createServer({
-      key: process.env.SSL_PRIVATE_KEY!,
-      cert: fs.readFileSync("cert.pem"),
-    }, app)
-    .listen(process.env.PORT || 8080, () => {
-      logger.info(`NODE_ENV ${process.env.NODE_ENV} services running on port ${process.env.PORT}`);
-    })
+  app.listen(process.env.PORT || 8080, () => {
+    logger.info(`NODE_ENV ${process.env.NODE_ENV} services running on port ${process.env.PORT}`);
+  })
 }
 
 process.on('SIGINT', () => { logger.info("Bye bye!"); process.exit(); });
