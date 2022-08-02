@@ -1,8 +1,8 @@
 {
-  "realm": "PM-Wani",
-  "auth-server-url": "http://localhost/auth/",
+  "realm": "PM-WANI",
+  "auth-server-url": "https://206.189.137.35/auth",
   "bearerOnly": true,
   "resource": "pm-wani-app-provider",
-  "realmpublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvLIzM2nNVbKeNpXHD0z/5uCJQyedqEj2zkDHI/yDH4R71V6aS3oQdpO+7GhZHjLPW+4RyKoNW+sqVckq15ycpO5ij7dPGBnQq36QgvnpbQ6tZnF9o/fTBw1IIYSDBfV7SUhA+rxVPux1niq9ZgehTFGm274tP964o9GGcEiULc+z7aVxsfbSyUi/f4nRmBt7yi5aDTtcrfizDO4G0/OzW7m13Hutvz9jrWFqj85OUYf3xLUvxmxmx/UcjcdIV0UpDIRLveT9OI2fZzX4X2CHkzP9Er8n4gXLTe6F1F8oZpj3o2QxLUZH6/2pSstE6k6brUfsXEzFQ4813EVp3X+A1QIDAQAB",
+  "realmpublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbNrlMQz2kNEPCbikiuBfBiY1VCVAMu75K7jzjkg+vdzWee4eq3reptG8G/8/mIIWLSzhp+Oc5KDQbCaS9qNmhYuze6fheXFCix4ja0Ofkq8f7NiRyvSAMhLZhi9xeTXA0aMtlLHCpdnkqKftXHb5fCT58kwgf3FVD/LmduCmcK6IE/KI/p+F0S5JFjSjDdzUUiNIz/rUUBcpYsPihmpVljOW+8u4PnSK9KdoT9CEYSyglt0QV77D3XQa7ODYL8jbFjaDLrnYdqnJ9m6KVHq4R5MBCt9Je6GhKFXtLp8rJdW69eDFyLY+8Iqb+6Um+otrMq/927pnW8ntfbPGHKYcQIDAQAB",
   "sslRequired": "external"
 }
