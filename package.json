@@ -12,7 +12,7 @@
     "dev": "env-cmd -f ./src/config/dev.env nodemon",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp ./src/config/prod.env ./dist/.env && tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

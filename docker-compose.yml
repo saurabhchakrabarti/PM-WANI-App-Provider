@@ -41,8 +41,8 @@ services:
   #     - postgres
 
   backend:
-    build:
-      context: .
+    image: nikhilsksharma/pm-wani-app-provider
+
     environment:
       TYPEORM_CONNECTION: postgres
       TYPEORM_USERNAME: keycloak
@@ -50,9 +50,13 @@ services:
       TYPEORM_HOST: postgres
       TYPEORM_DATABASE: keycloak
       TYPEORM_PORT: 5432
+    volumes:
+      - ./data/keycloak/themes/custom:/opt/jboss/keycloak/themes/custom
+      - ./data/keycloak/realm-export.json:/tmp/realm-export.json
 
     depends_on:
       - postgres
+      - keycloak
     ports:
       - '3000:3000'
 
