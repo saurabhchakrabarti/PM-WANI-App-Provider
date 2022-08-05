@@ -2,7 +2,6 @@ import { NextFunction, Request, Response } from "express";
 
 import { logger } from "../services/logger";
 
-import axios from "axios";
 import jwt from "jsonwebtoken";
 
 // a more precise definition of what we get back from payload to help augment currentUser to req
@@ -42,20 +41,18 @@ export const currentUser = async (
     if (!keycloakToken) {
       return next();
     }
-    // send a request to the userinfo endpoint on keycloak
-    const response = await axios.get(`${process.env.KEYCLOAK_BASE_URL!}/realms/${process.env.KEYCLOAK_REALM_NAME!}/protocol/openid-connect/userinfo`, {
-      headers: {
-        Authorization: req.headers.authorization!,
+
+    let content;
+    jwt.verify(keycloakToken, process.env.KEYCLOAK_PUBLIC_KEY!, { algorithms: ['RS256'] }, (err, payload) => {
+      if (err) {
+        // Not a valid token
+        logger.error(err);
+        return next();
       }
-    })
 
-    if (response.status !== 200) {
-      return next();
-    }
-
-
-
-    const content = jwt.decode(keycloakToken);
+      // Token successfully verified
+      content = payload;
+    });
 
     if (!content) {
       return next();

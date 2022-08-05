@@ -90,6 +90,11 @@ const start = async () => {
 
   }
 
+  if (!process.env.KEYCLOAK_PUBLIC_KEY) {
+    throw new Error("KEYCLOAK_PUBLIC_KEY must be defined");
+
+  }
+
   if (!process.env.KEYCLOAK_AUTH_TOKEN_URL) {
     throw new Error("KEYCLOAK_AUTH_TOKEN_URL must be defined");
 
