@@ -6,6 +6,7 @@ import { app } from './app';
 import { intializeDB } from './db/data-source';
 import { kcAdminClient } from './keycloak/keycloak-admin-client';
 import { logger } from './services/logger';
+import { loadWaniProviders } from './utils/load-central-registry';
 
 
 const start = async () => {
@@ -126,6 +127,8 @@ const start = async () => {
   app.listen(process.env.PORT || 8080, () => {
     logger.info(`NODE_ENV ${process.env.NODE_ENV} services running on port ${process.env.PORT}`);
   })
+
+  loadWaniProviders()
 }
 
 process.on('SIGINT', () => { logger.info("Bye bye!"); process.exit(); });
