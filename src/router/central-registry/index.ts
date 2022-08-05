@@ -1,13 +1,13 @@
 import express from 'express';
-import { keycloak } from '../../app';
+import { requireAuth } from '../../middleware/require-auth';
 import { centralRegistryRoutes } from '../routes';
 import { getApListHandler } from './controller/handlers/ap-list';
 import { getWaniProvidersHandler } from './controller/handlers/wani-providers';
 
 const router = express.Router();
 
-router.get(centralRegistryRoutes.DownloadWaniAPList, keycloak.protect(), getApListHandler)
-router.get(centralRegistryRoutes.DownloadWaniProviders, keycloak.protect(), getWaniProvidersHandler)
+router.get(centralRegistryRoutes.DownloadWaniAPList, requireAuth, getApListHandler)
+router.get(centralRegistryRoutes.DownloadWaniProviders, requireAuth, getWaniProvidersHandler)
 
 export {
   router as centralRegistryRouter
