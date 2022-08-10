@@ -5,5 +5,6 @@ RUN npm install
 RUN npm install -g typescript
 COPY . .
 RUN npm run build
+RUN rm -rf src docs data images keycloak nginx
 
 CMD ["npm", "start"]
