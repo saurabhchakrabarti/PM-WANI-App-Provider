@@ -12,9 +12,9 @@ export const loadWaniProviders = async (): Promise<void> => {
   const json_wp = JSON.stringify(result_wp, null, 4);
   const json_ap = JSON.stringify(result_ap, null, 4);
 
-  fs.writeFileSync(__dirname + '/../../../../utils/waniProviders.json', json_wp);
+  fs.writeFileSync(__dirname + '/waniProviders.json', json_wp);
 
-  fs.writeFileSync(__dirname + '/../../../../utils/apList.json', json_ap);
+  fs.writeFileSync(__dirname + '/apList.json', json_ap);
 
   logger.info("central registry loaded")
 
