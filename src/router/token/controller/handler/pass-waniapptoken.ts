@@ -14,9 +14,10 @@ const handler = async (req: Request, res: Response) => {
   }
 
   const cpUrl = req.query.cpUrl! as string;
+  const apMacId = req.query.apMacId! as string;
+  const deviceMacId = req.query.deviceMacId! as string;
 
   const pdoaId = 'f22e3f63-bda6-4633-bd3c-55c6cab696ba'
-  const apMacId = 'f22e3f63-bda6-4633-bd3c-55c6cab696ba'
 
   const appPubKey = getPubKeyFromCert(process.env.APP_PROVIDER_PUBLIC_CERTIFICATE!);
 
@@ -31,8 +32,8 @@ const handler = async (req: Request, res: Response) => {
     "timestamp": timestamp,
     "username": existingUser.preferred_username,
     "password": existingUser.wani_password,
-    "apMacId": "20:74:E2:40:14:B2",
-    "deviceMacId": "12:22:33:44:55:BA",
+    "apMacId": apMacId,
+    "deviceMacId": deviceMacId,
     "appId": "4592ffcc-fe45-4bec-a41f-f2aa76a78dcd",
     "appVer": "1.0",
     "totp": "1234",
