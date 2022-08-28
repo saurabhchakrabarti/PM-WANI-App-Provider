@@ -23,19 +23,13 @@ const handler = async (req: Request, res: Response) => {
   const waniProviders = JSON.parse(fs.readFileSync(__dirname + '/../../../../utils/waniProviders.json', 'utf8')) as WaniProviders;
 
   // TODO use central registry model
-  const pdoa = waniProviders["WaniRegistry"]["PDOAs"].find((pdoa) => {
-    return pdoa.PDOA.some((item) => {
-      return item.id.includes(pdoaId);
-    });
-  });
+  const pdoa = waniProviders["WaniRegistry"]["PDOAs"][0]["PDOA"].filter(pdoa => pdoa.id.includes(pdoaId))
 
   if (!pdoa) {
     throw new BadRequestError("PDOA not found")
   }
 
-  const { exp, _: key } = pdoa.PDOA[0].Keys[0].Key.filter(key => {
-    return key.exp[0] === keyExp
-  })[0]
+  const { exp, _: key } = pdoa[0].Keys[0].Key.filter(key => key.exp.includes(String(keyExp)))[0]
 
   if (!key) {
     throw new BadRequestError("Invalid Token")
