@@ -3,3 +3,7 @@ config
 dist
 ecosystem.config.js
 keycloak.json
+package-lock.json
+src/utils/*.json
+.env
+.vscode

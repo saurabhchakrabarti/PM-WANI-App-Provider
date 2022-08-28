@@ -56,13 +56,13 @@ const start = async () => {
 
   }
 
-  if (!process.env.CENTRAL_REGISTRY_AP_URL) {
-    throw new Error("CENTRAL_REGISTRY_AP_URL must be defined");
+  if (!process.env.APP_PROVIDER_PRIVATE_KEY) {
+    throw new Error("APP_PROVIDER_PRIVATE_KEY must be defined");
 
   }
 
-  if (!process.env.APP_PROVIDER_PRIVATE_KEY) {
-    throw new Error("APP_PROVIDER_PRIVATE_KEY must be defined");
+  if (!process.env.APP_PROVIDER_ID) {
+    throw new Error("APP_PROVIDER_ID must be defined");
 
   }
 
@@ -101,10 +101,6 @@ const start = async () => {
 
   }
 
-  if (!process.env.SSL_PRIVATE_KEY) {
-    throw new Error("SSL_PRIVATE_KEY must be defined");
-
-  }
 
   await intializeDB();
 
