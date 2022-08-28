@@ -21,7 +21,7 @@ const handler = async (req: Request, res: Response) => {
 
   const appPubKey = getPubKeyFromCert(process.env.APP_PROVIDER_PUBLIC_CERTIFICATE!);
 
-  const appProviderId = '4592ffcc-fe45-4bec-a41f-f2aa76a78dcd'
+  const appProviderId = process.env.APP_PROVIDER_ID! ;
 
   const date = new Date()
 
